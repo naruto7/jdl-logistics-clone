@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>京东物流官网复刻 · 部署管线自检</title>
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; display: grid; place-items: center;
+      font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+      background: radial-gradient(1200px 600px at 20% 0%, #fff1f0 0%, #f7f8fa 55%, #eef1f6 100%);
+      color: #1f2329;
+    }
+    .card {
+      width: min(720px, 92vw); background: #fff; border-radius: 16px; padding: 40px 44px;
+      box-shadow: 0 18px 60px rgba(31, 35, 41, .12); border: 1px solid #f0f0f0;
+    }
+    h1 { margin: 0 0 8px; font-size: 28px; letter-spacing: .5px; }
+    h1 em { color: #e1251b; font-style: normal; }
+    p { margin: 6px 0; color: #4e5969; line-height: 1.8; }
+    code { background: #f2f3f5; padding: 2px 6px; border-radius: 4px; font-size: 13px; }
+    .ok { display: inline-flex; align-items: center; gap: 8px; margin-top: 18px; padding: 8px 14px;
+      background: #e8f7ee; color: #0a7a3d; border-radius: 999px; font-size: 14px; font-weight: 600; }
+    .hr { height: 1px; background: #f0f0f0; margin: 24px 0; }
+    ul { color: #4e5969; line-height: 2; font-size: 14px; padding-left: 20px; margin: 8px 0 0; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>京东物流官网<em>复刻</em> · 部署管线已打通</h1>
+    <p>这是用于验证 GitHub Pages 发布链路的占位页，正式页面正在构建中。</p>
+    <div class="ok">● GitHub Pages 发布链路 PASS</div>
+    <div class="hr"></div>
+    <p><strong>链路说明</strong>：本机 <code>github.com:443</code> 不可达，发布走 <code>api.github.com</code> 的 Git Data API（blob → tree → commit → ref），产物等价于 push 到 <code>gh-pages</code> 分支。</p>
+    <ul>
+      <li>仓库：<a href="https://github.com/naruto7/jdl-logistics-clone">naruto7/jdl-logistics-clone</a></li>
+      <li>构建：Vite + React 19 + TypeScript + Tailwind CSS</li>
+      <li>声明：非官方网站，仅供学习演示使用，素材版权归京东物流所有</li>
+    </ul>
+  </main>
+</body>
+</html>
