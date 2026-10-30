@@ -1,0 +1,19 @@
+# 依赖
+node_modules/
+
+# 构建产物（发布时走 gh-pages 分支，不进 main）
+dist/
+
+# 侦察资料（参考站截图/素材，体积大且非源码）
+recon/
+
+# 本地缓存与日志
+.vite/
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.local
+# TS 增量构建信息
+tsconfig.tsbuildinfo
+
