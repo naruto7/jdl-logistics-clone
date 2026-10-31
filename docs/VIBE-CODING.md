@@ -270,9 +270,14 @@ npm run publish:source            # tools/publish-source.mjs → main（git ls-f
 |---|---|---|---|
 | `main` | `3bdc8f49` | 2026-10-30T06:40:52Z | Initial commit |
 | `gh-pages` | `8593b994` | 2026-10-30T06:42:18Z | `chore: 部署管线自检占位页`（根目录 `.nojekyll` + `index.html`） |
-| `main` | `cbb5048d` | 2026-10-30T06:48:02Z | `chore(source): 同步源码 2026-10-30T06:47:51.133Z`（`publish-source.mjs` 产物） |
+| `main` | `cbb5048d` | 2026-10-30T06:48:02Z | `chore(source): 同步源码`（`publish-source.mjs` 产物） |
+| `gh-pages` | `32b01322` | 2026-10-31 | `release: 首页 8 区块 + 7 页 + 文档 完整版`（正式站点） |
+| `gh-pages` | `c61c79db` | 2026-10-31 | `fix: link() 幂等，修生产环境双重 base 前缀`（当前线上版本） |
+| `main` | `a4aad71a` | 2026-10-31 | `release: 首页 8 区块 + 7 页 + 文档`（源码 230 个文件同步） |
 
-结论：**“构建产物 → Git Data API → Pages 构建”链路已跑通**（自检页为证）；线上当前仍是自检占位页，最终发布只需在最新 `dist/` 上执行 `npm run deploy`。
+结论：**「构建产物 → Git Data API → Pages 构建」链路已跑通并完成正式发布**。
+线上地址 <https://naruto7.github.io/jdl-logistics-clone/> 复验结果：7 页全部 200、站内 49 条链接 0 死链、299 个锚点齐备、7 页 × 2 视口（390/1440）无横向溢出；首页逐屏像素差异 0.821% / 0.531% / 0.416% / 1.809%（首屏已 mask 动态视频区）。
+生产环境暴露并修复的真实缺陷：内页把已 `link()` 的地址二次包装，导致 `/jdl-logistics-clone/jdl-logistics-clone/...` 双重前缀 → `link()` 改为幂等。
 
 ### 7.4 验收口径
 
