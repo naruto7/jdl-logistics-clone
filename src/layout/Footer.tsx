@@ -1,92 +1,155 @@
 import { SITE } from '@/data/site';
+import { asset } from '@/lib/assets';
+import { link } from '@/lib/links';
 
-const FOOTER_COLUMNS = [
+/**
+ * 页脚 = 联系我们条（151px）+ 页脚主体（297px），实测：
+ * - 联系我们：背景 #23252B，标题 12.96px，电话 36px JDZhengHT，右侧三个联系图标 26x26
+ * - 页脚主体：6 列链接（列间距 97px，列标题 17.28px fw600 白色，子链接 13.44px 70% 白）
+ *   + 资质徽标条（953x53）+ 底部备案条（36px，10% 白底）
+ * 官网无「非官方」声明，本站按甲方要求追加简短声明与项目说明入口。
+ */
+
+const CONTACT_ICONS = [
+  { icon: 'contact/icon-wechat.png', label: '微信公众号' },
+  { icon: 'contact/icon-miniprogram.png', label: '小程序' },
+  { icon: 'contact/icon-qiwei.png', label: '企业微信' },
+];
+
+const LINK_COLUMNS = [
   {
-    title: '关于京东物流',
+    title: '更多推荐',
     links: [
-      { label: '企业介绍', href: '/about/#profile' },
-      { label: '新闻中心', href: '/about/#news' },
-      { label: '视频中心', href: '/about/#videos' },
+      { label: '京东服务', href: '/services/' },
+      { label: '最新资讯', href: '/about/#news' },
+      { label: '航空业务合作', href: '/services/#fullCargo' },
+      { label: '商家优惠通道', href: '/support/#merchant' },
+    ],
+  },
+  {
+    title: '便捷入口',
+    links: [
+      { label: '商家工作台', href: '/support/#login' },
+      { label: '电子合同签约', href: '/support/#merchant' },
+      { label: '意见反馈', href: '/support/#contact' },
+    ],
+  },
+  {
+    title: '服务支持',
+    links: [
+      { label: '寄快递', href: '/services/#express' },
+      { label: '查快递', href: '/support/#track' },
+      { label: '服务范围查询', href: '/support/#coverage' },
+      { label: '服务细则', href: '/support/#faq' },
+      { label: '物流合作', href: '/support/#contact' },
+    ],
+  },
+  {
+    title: '可持续发展',
+    links: [
+      { label: 'ESG', href: '/esg/#esg' },
+      { label: '碳足迹计算', href: '/esg/#green' },
+    ],
+  },
+  {
+    title: '关于我们',
+    links: [
+      { label: '公司介绍', href: '/about/#profile' },
+      { label: '新闻公告', href: '/about/#news' },
+      { label: '投资者关系', href: '/about/#investor' },
       { label: '联系我们', href: '/about/#contact' },
+      { label: '政企合作', href: '/about/#group' },
     ],
   },
   {
-    title: '服务与产品',
-    links: [
-      { label: '快递服务', href: '/services/#express' },
-      { label: '快运服务', href: '/services/#freight' },
-      { label: '仓配一体', href: '/services/#supplyChain' },
-      { label: '冷链服务', href: '/services/#coldChain' },
-    ],
-  },
-  {
-    title: '解决方案',
-    links: [
-      { label: '消费品行业', href: '/solutions/#consumerGoods' },
-      { label: '家电家居行业', href: '/solutions/#furnituredAppliance' },
-      { label: '汽车行业', href: '/solutions/#vehicle' },
-      { label: '大时尚行业', href: '/solutions/#bigFashion' },
-    ],
-  },
-  {
-    title: '客户服务',
-    links: [
-      { label: '运单查询', href: '/support/#track' },
-      { label: '时效查询', href: '/support/#eta' },
-      { label: '服务范围', href: '/support/#coverage' },
-      { label: '常见问题', href: '/support/#faq' },
-    ],
+    title: '友情链接',
+    links: [{ label: '德邦快递', href: '/about/#group' }],
   },
 ];
 
 export function Footer() {
   return (
-    <footer className="mt-auto border-t border-line bg-surface-2">
-      <div className="container-page grid gap-10 py-14 md:grid-cols-[1fr_auto]">
-        <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
-          {FOOTER_COLUMNS.map((column) => (
-            <div key={column.title}>
-              <p className="mb-4 text-[15px] font-semibold text-ink">{column.title}</p>
-              <ul className="space-y-2.5">
-                {column.links.map((link) => (
-                  <li key={link.label}>
-                    <a href={link.href} className="text-[13px] text-ink-2 transition-colors hover:text-brand">
-                      {link.label}
-                    </a>
-                  </li>
-                ))}
-              </ul>
+    <>
+      {/* 联系我们条 */}
+      <section data-section="contact" className="relative h-auto w-full bg-dark py-8 lg:h-[151px] lg:py-0">
+        <div className="container-page pt-0 lg:pt-[43px]" data-qa="contact">
+          <p className="text-[12.96px] leading-[18px] text-white">联系我们</p>
+          <div className="mt-[12px] flex h-[36px] items-center" data-qa="contact-row">
+            <img src={asset('contact/tel.png')} alt="客服电话" className="mr-[9px] h-[24px] w-[24px]" />
+            <span className="font-num text-[36px] leading-[36px] text-white">950616</span>
+            <div className="ml-[31px] flex items-center gap-[16px]">
+              {CONTACT_ICONS.map((item) => (
+                <img
+                  key={item.label}
+                  src={asset(item.icon)}
+                  alt={item.label}
+                  title={item.label}
+                  className="h-[26px] w-[26px] cursor-pointer transition-opacity hover:opacity-80"
+                />
+              ))}
             </div>
-          ))}
-        </div>
-
-        <div className="flex flex-col gap-2 border-line md:border-l md:pl-10">
-          <p className="text-[13px] text-ink-3">客服热线</p>
-          <p className="text-[28px] font-bold tracking-tight text-brand">{SITE.phone}</p>
-          <p className="mt-2 text-[13px] leading-6 text-ink-3">
-            周一至周日 8:00-22:00
-            <br />
-            企业合作请邮件联系商务团队
-          </p>
-        </div>
-      </div>
-
-      <div className="border-t border-line">
-        <div className="container-page flex flex-col gap-3 py-6 text-[12px] leading-6 text-ink-3 md:flex-row md:items-start md:justify-between">
-          <div className="space-y-1">
-            <p>
-              © 2004-{new Date().getFullYear()} 京东物流 版权所有 · 京ICP备12031107号-1 · 京公网安备 11011302001362 号
-            </p>
-            <p className="max-w-[760px] text-ink-3">{SITE.disclaimer}</p>
-          </div>
-          <div className="flex flex-col gap-1 md:items-end">
-            <p>
-              复刻声明：非官方站点 · <a className="text-brand hover:underline" href="/project/">关于本项目</a>
-            </p>
-            <p>素材出处与原站链接见 README</p>
           </div>
         </div>
-      </div>
-    </footer>
+        {/* 与页脚主体之间的分隔线（实测容器宽度、位于联系我们条底部上方 15px） */}
+        <div className="absolute inset-x-0 bottom-[15px]">
+          <div className="container-page h-px bg-white/10" />
+        </div>
+      </section>
+
+      {/* 页脚主体 */}
+      <footer data-section="footer" className="h-auto w-full bg-dark lg:h-[297px]">
+        <div className="container-page px-[14.4px] pt-[20px]">
+          <div className="flex flex-wrap gap-x-[32px] gap-y-[18px] lg:h-[188px] lg:gap-[97px]">
+            {LINK_COLUMNS.map((column, columnIndex) => (
+              <div key={column.title} className="shrink-0" data-qa={`footer-col-${columnIndex}`}>
+                <p className="text-[17.28px] font-semibold leading-[25.92px] text-white">{column.title}</p>
+                <ul className="mt-[16px] space-y-[15.5px] text-[13.44px] leading-[13.44px]">
+                  {column.links.map((item) => (
+                    <li key={item.label}>
+                      <a
+                        href={link(item.href)}
+                        className="block whitespace-nowrap text-[13.44px] leading-[13.44px] text-white/70 transition-colors hover:text-white"
+                      >
+                        {item.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+
+          {/* 资质徽标条：官网由多张图片组成，这里用元素级截图保持像素一致 */}
+          <img
+            data-qa="footer-badges"
+            src={asset('footer/badges.png')}
+            alt="资质与备案徽标"
+            className="h-[53px] w-[953px] object-cover"
+          />
+        </div>
+
+        {/* 底部备案条：官方文案 + 复刻声明 + 项目说明入口 */}
+        <div className="flex min-h-[36px] w-full flex-wrap items-center justify-center gap-x-[10px] gap-y-1 px-4 py-2 text-center text-[13.44px] leading-[22.85px] text-white/60 lg:h-[36px] lg:flex-nowrap lg:py-0">
+          <span>2004-{new Date().getFullYear()}@京东物流版权所有</span>
+          <a href={link('/about/#investor')} className="transition-colors hover:text-white">
+            投资者关系
+          </a>
+          <span>Investor Relations</span>
+          <a href={link('/support/#faq')} className="transition-colors hover:text-white">
+            服务细则
+          </a>
+          <span>个人信息保护规则</span>
+          <span>营业执照</span>
+          <span>京公网安备11011502005548号</span>
+          <span>增值电信业务经营许可证：京ICP备20010510号-7</span>
+          <span className="text-white/40">·</span>
+          <span className="text-white/50">非官方复刻 · 仅供学习演示</span>
+          <a href={link('/project/')} className="text-white/70 underline-offset-2 transition-colors hover:text-white hover:underline">
+            关于本项目
+          </a>
+        </div>
+        <p className="sr-only">{SITE.disclaimer}</p>
+      </footer>
+    </>
   );
 }

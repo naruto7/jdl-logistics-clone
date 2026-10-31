@@ -1,0 +1,116 @@
+/*
+ * service 区专用样式：Tailwind 不便表达的部分（伪元素高亮、入场关键帧、窄屏降级）。
+ * 数值全部来自对 jdl.com 1440x900 视口的实测（见 spec/home-spec.json service 段）。
+ */
+
+/* 详情标题下的品牌粉高亮条：官网 .content-header::before（162x7.92，左端圆角） */
+.svc-title-highlight::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 24.48px;
+  width: 162px;
+  height: 7.92px;
+  border-radius: 3.6px 0 0 3.6px;
+  background: linear-gradient(90deg, rgba(252, 55, 55, 0.22), rgba(254, 120, 103, 0));
+}
+
+/*
+ * 切换服务时的入场动画，对齐官网 .animate-slide-up：
+ * 0.5s cubic-bezier(.4,0,.2,1)，从下方 10.8px 淡入。
+ */
+@keyframes svc-slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(10.8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.svc-anim {
+  animation: svc-slide-up 0.5s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+/* 卡片与按钮晚 0.3s 入场（官网 .card-container { animation-delay: .3s }） */
+.svc-anim-delay {
+  animation-delay: 0.3s;
+}
+
+/*
+ * 卡车图入场，对齐官网 .animate-slide-up-diagonal：
+ * 1s，从右下 (36px,18px) 斜向滑入，延迟 0.45s。
+ */
+@keyframes svc-slide-diagonal {
+  from {
+    opacity: 0;
+    transform: translate(36px, 18px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+.svc-anim-diagonal {
+  animation: svc-slide-diagonal 1s cubic-bezier(0.4, 0, 0.2, 1) 0.45s both;
+}
+
+/* 卡片列标题右侧的竖向分隔线：官网 .card-header::before（高 86.4、距右 4.32） */
+.svc-card-header::before {
+  content: '';
+  position: absolute;
+  left: calc(100% - 4.32px);
+  top: 20.875px;
+  width: 0.72px;
+  height: 86.39px;
+  background: #e7e7e7;
+}
+
+/*
+ * 窄屏降级：官网在 <880px 走的是另一套移动端结构，本复刻只要求「不崩」，
+ * 因此保留视觉语言、关掉会溢出的装饰（两侧箭头、大图），并让卡片自适应。
+ */
+@media (max-width: 1100px) {
+  .svc-scroll-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 880px) {
+  .svc-image {
+    display: none;
+  }
+
+  .svc-card {
+    width: 100%;
+    /* 窄屏单列时不再保留桌面端的固定最小高度，避免出现大片空白卡片 */
+    min-height: 0;
+  }
+
+  .svc-detail-title-block {
+    width: 100%;
+  }
+
+  .svc-detail-desc {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* 移动端网格退化为单列、最多显示 4 行，避免卡片被撑高 */
+  .svc-service-list {
+    grid-auto-flow: row;
+    grid-template-rows: none;
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 4px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .svc-anim,
+  .svc-anim-diagonal {
+    animation: none;
+  }
+}

@@ -1,4 +1,5 @@
 import { SITE } from '@/data/site';
+import { link } from '@/lib/links';
 
 /**
  * 内页占位骨架：由各栏目负责人替换为真正的落地页内容。
@@ -23,7 +24,7 @@ export function SectionPlaceholder({
         <div className="mt-10 rounded-card border border-line bg-white p-8 shadow-card">
           <p className="text-[15px] leading-8 text-ink-2">
             本页正在按官网内容结构还原中（页面骨架已就绪，内容区块陆续填充）。
-            返回 <a className="text-brand underline" href="/">首页</a> 查看已完成的首页复刻。
+            返回 <a className="text-brand underline" href={link('/')}>首页</a> 查看已完成的首页复刻。
           </p>
         </div>
       </div>

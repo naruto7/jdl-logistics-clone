@@ -17,3 +17,7 @@ Thumbs.db
 # TS 增量构建信息
 tsconfig.tsbuildinfo
 
+
+# QA 截图与比对产物
+qa/
+

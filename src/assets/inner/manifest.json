@@ -1,0 +1,373 @@
+[
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v4/product/express/express-pc.jpg",
+    "target": "services/hero-express.jpg",
+    "note": "服务与产品页头图（快递服务主视觉）",
+    "status": "ok",
+    "bytes": 135176
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/supplyChain/supply-chain-m.jpeg",
+    "target": "services/supply-chain.jpg",
+    "note": "仓配一体卡片图",
+    "status": "ok",
+    "bytes": 106841
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v4/product/freight/freight-m.jpg",
+    "target": "services/freight.jpg",
+    "note": "快运服务卡片图",
+    "status": "ok",
+    "bytes": 63807
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/bulky/bulky.jpeg",
+    "target": "services/bulky.jpg",
+    "note": "大件服务卡片图",
+    "status": "ok",
+    "bytes": 99454
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v4/product/warehouse/warehouse-m.jpg",
+    "target": "services/warehouse.jpg",
+    "note": "送仓服务卡片图",
+    "status": "ok",
+    "bytes": 94385
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/coldChain/coldChain-m.jpeg",
+    "target": "services/cold-chain.jpg",
+    "note": "冷链服务卡片图",
+    "status": "ok",
+    "bytes": 214286
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/medicine/medicine.jpeg",
+    "target": "services/medicine.jpg",
+    "note": "医药服务卡片图",
+    "status": "ok",
+    "bytes": 97388
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/crossBorder/guoji-m.jpeg",
+    "target": "services/cross-border.jpg",
+    "note": "国际物流卡片图",
+    "status": "ok",
+    "bytes": 72885
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/technology/zhinengcang.jpeg",
+    "target": "services/intelligent-warehouse.jpg",
+    "note": "智能仓储卡片图",
+    "status": "ok",
+    "bytes": 83722
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/technology/jiaoyu.jpeg",
+    "target": "services/education.jpg",
+    "note": "教育产业学院卡片图",
+    "status": "ok",
+    "bytes": 98556
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/technology/zhineng-yuanqu.jpeg",
+    "target": "services/intelligent-park.jpg",
+    "note": "智能物流园区卡片图",
+    "status": "ok",
+    "bytes": 186233
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/technology/shuzhihua.jpeg",
+    "target": "services/digitized-supply-chain.jpg",
+    "note": "数智化供应链卡片图",
+    "status": "ok",
+    "bytes": 105125
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/capacity/zhuanxianbaocang.jpeg",
+    "target": "services/dedicated-line.jpg",
+    "note": "专线包仓卡片图",
+    "status": "ok",
+    "bytes": 100216
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/capacity/quanjibaocang.jpeg",
+    "target": "services/full-cargo.jpg",
+    "note": "全货机包机卡片图",
+    "status": "ok",
+    "bytes": 93566
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/serviceplus/install.jpeg",
+    "target": "services/install.jpg",
+    "note": "安装服务卡片图",
+    "status": "ok",
+    "bytes": 57093
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/serviceplus/repair.jpeg",
+    "target": "services/repair.jpg",
+    "note": "维修服务卡片图",
+    "status": "ok",
+    "bytes": 66789
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/serviceplus/serviceplus-pc.jpeg",
+    "target": "services/service-plus-hero.jpg",
+    "note": "京东服务+ 找服务卡片图",
+    "status": "ok",
+    "bytes": 150293
+  },
+  {
+    "url": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1725607001020.jpg",
+    "target": "solutions/hero-consumer.jpg",
+    "note": "解决方案页头图（消费品行业主视觉）",
+    "status": "ok",
+    "bytes": 711710
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/images/solution/img-xfp-01.png",
+    "target": "solutions/consumer-goods.png",
+    "note": "消费品行业方案配图",
+    "status": "ok",
+    "bytes": 23950
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/images/solution/img-3c-01.png",
+    "target": "solutions/3c.png",
+    "note": "3C 行业方案配图",
+    "status": "ok",
+    "bytes": 39342
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/images/solution/img-djj-01.png",
+    "target": "solutions/furnishings.png",
+    "note": "大家居行业方案配图",
+    "status": "ok",
+    "bytes": 28324
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/images/solution/img-fz-01.png",
+    "target": "solutions/dress.png",
+    "note": "服饰行业方案配图",
+    "status": "ok",
+    "bytes": 50327
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/images/solution/img-jiadian-01.png",
+    "target": "solutions/appliances.png",
+    "note": "家电行业方案配图",
+    "status": "ok",
+    "bytes": 51785
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/images/solution/img-car-01.png",
+    "target": "solutions/car.png",
+    "note": "汽车行业方案配图",
+    "status": "ok",
+    "bytes": 48590
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/solution/img-sx-01.png",
+    "target": "solutions/fresh.png",
+    "note": "生鲜行业方案配图",
+    "status": "ok",
+    "bytes": 35979
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/solution/img-gyp-01.jpg",
+    "target": "solutions/industrial.jpg",
+    "note": "工业品行业案例配图",
+    "status": "ok",
+    "bytes": 224541
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/solution/img-bfs-01.jpg",
+    "target": "solutions/big-fashion.jpg",
+    "note": "大时尚行业案例配图",
+    "status": "ok",
+    "bytes": 89512
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/solution/img-jdjj-01.jpg",
+    "target": "solutions/furniture-appliance.jpg",
+    "note": "家电家居行业案例配图",
+    "status": "ok",
+    "bytes": 244277
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/esg/img-banner-top-v2-pc.jpeg",
+    "target": "esg/hero.jpg",
+    "note": "可持续发展页头图",
+    "status": "ok",
+    "bytes": 298689
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/images/green/banner-green-01.png",
+    "target": "esg/green-banner.png",
+    "note": "青流计划区块背景",
+    "status": "ok",
+    "bytes": 977561
+  },
+  {
+    "url": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1750988435859.jpg",
+    "target": "news/green-a.jpg",
+    "note": "环保资讯封面 A",
+    "status": "ok",
+    "bytes": 146572
+  },
+  {
+    "url": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1749173852891.png",
+    "target": "news/green-b.png",
+    "note": "环保资讯封面 B",
+    "status": "ok",
+    "bytes": 320078
+  },
+  {
+    "url": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1747969515154.jpg",
+    "target": "news/green-c.jpg",
+    "note": "环保资讯封面 C",
+    "status": "ok",
+    "bytes": 70218
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/about/img-banner-aboutus.png",
+    "target": "about/hero.png",
+    "note": "关于京东物流页头图",
+    "status": "ok",
+    "bytes": 1178353
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/about/img-banner-news.jpg",
+    "target": "about/news-banner.jpg",
+    "note": "新闻中心区块背景",
+    "status": "ok",
+    "bytes": 149742
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/about/img-banner-contact.jpg",
+    "target": "about/contact-banner.jpg",
+    "note": "联系我们区块背景",
+    "status": "ok",
+    "bytes": 213733
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/about/img-develop-02.jpg",
+    "target": "about/develop-02.jpg",
+    "note": "公司历程配图 2",
+    "status": "ok",
+    "bytes": 160333
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/about/img-develop-03.jpg",
+    "target": "about/develop-03.jpg",
+    "note": "公司历程配图 3",
+    "status": "ok",
+    "bytes": 131778
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/about/img-develop-04.jpg",
+    "target": "about/develop-04.jpg",
+    "note": "公司历程配图 4",
+    "status": "ok",
+    "bytes": 42270
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/about/img-course-02.jpg",
+    "target": "about/course-02.jpg",
+    "note": "企业荣誉配图",
+    "status": "ok",
+    "bytes": 66224
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/about/img-course-03.jpg",
+    "target": "about/course-03.jpg",
+    "note": "企业荣誉配图",
+    "status": "ok",
+    "bytes": 171945
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/about/img-course-06.jpg",
+    "target": "about/course-06.jpg",
+    "note": "企业荣誉配图",
+    "status": "ok",
+    "bytes": 27385
+  },
+  {
+    "url": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1744191571591.jpg",
+    "target": "about/video-thumb-a.jpg",
+    "note": "视频中心封面 A",
+    "status": "ok",
+    "bytes": 226027
+  },
+  {
+    "url": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1730855732312.jpg",
+    "target": "about/video-thumb-b.jpg",
+    "note": "视频中心封面 B",
+    "status": "ok",
+    "bytes": 31090
+  },
+  {
+    "url": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1792123815908.jpeg",
+    "target": "news/cover-a.jpg",
+    "note": "新闻中心封面 A",
+    "status": "ok",
+    "bytes": 349277
+  },
+  {
+    "url": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1789121684910.jpeg",
+    "target": "news/cover-b.jpg",
+    "note": "新闻中心封面 B",
+    "status": "ok",
+    "bytes": 78894
+  },
+  {
+    "url": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1787540523757.jpg",
+    "target": "news/cover-c.jpg",
+    "note": "新闻中心封面 C",
+    "status": "ok",
+    "bytes": 94607
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/express/express-m.jpg",
+    "target": "services/express.jpg",
+    "note": "快递服务卡片图",
+    "status": "ok",
+    "bytes": 103636
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/express/jdFastest.jpeg",
+    "target": "services/jd-fastest.jpg",
+    "note": "京东特快卡片图",
+    "status": "ok",
+    "bytes": 85071
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v4/product/express/jdStandard_VI.jpg",
+    "target": "services/jd-standard.jpg",
+    "note": "京东标快卡片图",
+    "status": "ok",
+    "bytes": 116854
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v4/product/express/freshFastest_VI.jpg",
+    "target": "services/fresh-fastest.jpg",
+    "note": "生鲜特快卡片图",
+    "status": "ok",
+    "bytes": 64630
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/freight/tekuai-zhonghuo.jpeg",
+    "target": "services/heavy-cargo.jpg",
+    "note": "重货标快卡片图",
+    "status": "ok",
+    "bytes": 92856
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/serviceplus/cleaning.jpeg",
+    "target": "services/cleaning.jpg",
+    "note": "京东服务+ 清洗服务卡片图",
+    "status": "ok",
+    "bytes": 56851
+  }
+]

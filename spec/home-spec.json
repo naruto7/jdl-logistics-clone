@@ -1,0 +1,4724 @@
+{
+  "generatedAt": "2026-10-30T06:51:19.865Z",
+  "source": {
+    "url": "https://www.jdl.com/",
+    "viewport": {
+      "width": 1440,
+      "height": 900,
+      "dpr": 1
+    },
+    "documentHeight": 3099
+  },
+  "layout": {
+    "container": {
+      "x": 229,
+      "y": 483,
+      "w": 982,
+      "h": 115
+    },
+    "header": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 0
+    },
+    "utility": [
+      {
+        "text": "集团网站",
+        "rect": {
+          "x": 1115,
+          "y": 9,
+          "w": 66,
+          "h": 13
+        },
+        "color": "#FFFFFF"
+      },
+      {
+        "text": "简体中文",
+        "rect": {
+          "x": 1219,
+          "y": 9,
+          "w": 66,
+          "h": 13
+        },
+        "color": "#FFFFFF"
+      },
+      {
+        "text": "简体中文",
+        "rect": {
+          "x": 1219,
+          "y": 9,
+          "w": 66,
+          "h": 13
+        },
+        "color": "#FFFFFF"
+      },
+      {
+        "text": "简体中文",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "color": "#606266"
+      },
+      {
+        "text": "登录",
+        "rect": {
+          "x": 1314,
+          "y": 9,
+          "w": 25,
+          "h": 12
+        },
+        "color": "#FFFFFF"
+      },
+      {
+        "text": "登录",
+        "rect": {
+          "x": 1314,
+          "y": 9,
+          "w": 25,
+          "h": 12
+        },
+        "color": "#FFFFFF"
+      },
+      {
+        "text": "登录",
+        "rect": {
+          "x": 1314,
+          "y": 6,
+          "w": 25,
+          "h": 18
+        },
+        "color": "#FFFFFF"
+      },
+      {
+        "text": "简体中文",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "color": "#606266"
+      }
+    ],
+    "navItems": [
+      {
+        "label": "",
+        "rect": {
+          "x": 362,
+          "y": 31,
+          "w": 31,
+          "h": 69
+        },
+        "href": null
+      },
+      {
+        "label": "",
+        "rect": {
+          "x": 508,
+          "y": 31,
+          "w": 77,
+          "h": 69
+        },
+        "href": null
+      },
+      {
+        "label": "",
+        "rect": {
+          "x": 700,
+          "y": 31,
+          "w": 61,
+          "h": 69
+        },
+        "href": null
+      },
+      {
+        "label": "",
+        "rect": {
+          "x": 876,
+          "y": 31,
+          "w": 61,
+          "h": 69
+        },
+        "href": null
+      },
+      {
+        "label": "",
+        "rect": {
+          "x": 1053,
+          "y": 31,
+          "w": 77,
+          "h": 69
+        },
+        "href": null
+      },
+      {
+        "label": "",
+        "rect": {
+          "x": 1245,
+          "y": 31,
+          "w": 92,
+          "h": 69
+        },
+        "href": null
+      }
+    ],
+    "sections": [
+      {
+        "key": "banner",
+        "rect": {
+          "x": 0,
+          "y": 100,
+          "w": 1440,
+          "h": 446
+        },
+        "class": "banner-container",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "padding": "0px"
+      },
+      {
+        "key": "search",
+        "rect": {
+          "x": 229,
+          "y": 483,
+          "w": 982,
+          "h": 115
+        },
+        "class": "search-wrap detail-wrap",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "padding": "0px"
+      },
+      {
+        "key": "service",
+        "rect": {
+          "x": 0,
+          "y": 546,
+          "w": 1440,
+          "h": 639
+        },
+        "class": "logistics-service",
+        "background": "rgb(242, 243, 247)",
+        "backgroundImage": "none",
+        "padding": "105.12px 0px 34.56px"
+      },
+      {
+        "key": "industry",
+        "rect": {
+          "x": 0,
+          "y": 1185,
+          "w": 1440,
+          "h": 504
+        },
+        "class": "industry-solutions",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "url(\"https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/solution/consumer.jpeg\")",
+        "padding": "43.2px 0px 0px"
+      },
+      {
+        "key": "network",
+        "rect": {
+          "x": 0,
+          "y": 1689,
+          "w": 1440,
+          "h": 515
+        },
+        "class": "logistics-network",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "url(\"https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/network/network-bg2.png\"), url(\"https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/network/network-bg.jpg\")",
+        "padding": "43.2px 0px 25.2px"
+      },
+      {
+        "key": "news",
+        "rect": {
+          "x": 0,
+          "y": 2204,
+          "w": 1440,
+          "h": 447
+        },
+        "class": "news-updates",
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "url(\"https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1778584332412.jpg\")",
+        "padding": "43.2px 0px"
+      },
+      {
+        "key": "contact",
+        "rect": {
+          "x": 0,
+          "y": 2651,
+          "w": 1440,
+          "h": 151
+        },
+        "class": "contact-footer",
+        "background": "rgb(35, 37, 43)",
+        "backgroundImage": "none",
+        "padding": "0px"
+      },
+      {
+        "key": "footer",
+        "rect": {
+          "x": 0,
+          "y": 2802,
+          "w": 1440,
+          "h": 297
+        },
+        "class": "footer-common",
+        "background": "rgb(35, 37, 43)",
+        "backgroundImage": "none",
+        "padding": "19.1995px 0px 0px"
+      }
+    ]
+  },
+  "design": {
+    "colors": {
+      "text": [
+        [
+          "#000000",
+          162
+        ],
+        [
+          "#FFFFFF",
+          94
+        ],
+        [
+          "#FC3737",
+          71
+        ],
+        [
+          "#FFFFFF 0.7alpha(rgba)",
+          42
+        ],
+        [
+          "#FFFFFF 0.6alpha(rgba)",
+          33
+        ],
+        [
+          "#23252B",
+          30
+        ],
+        [
+          "#0000EE",
+          20
+        ],
+        [
+          "#1A1A1A",
+          16
+        ],
+        [
+          "#525765",
+          7
+        ],
+        [
+          "#FFFFFF 0.5alpha(rgba)",
+          4
+        ],
+        [
+          "#444444",
+          1
+        ],
+        [
+          "#868D9F",
+          1
+        ]
+      ],
+      "background": [
+        [
+          "#000000 0alpha(rgba)",
+          446
+        ],
+        [
+          "#FFFFFF 0.7alpha(rgba)",
+          6
+        ],
+        [
+          "#FFFFFF 0.9alpha(rgba)",
+          4
+        ],
+        [
+          "#D8D8D8",
+          4
+        ],
+        [
+          "#000000 0.6alpha(rgba)",
+          4
+        ],
+        [
+          "#FFFFFF 0.1alpha(rgba)",
+          4
+        ],
+        [
+          "#FFFFFF",
+          2
+        ],
+        [
+          "#000000 0.1alpha(rgba)",
+          2
+        ],
+        [
+          "#FFFFFF 0.2alpha(rgba)",
+          2
+        ],
+        [
+          "#23252B",
+          2
+        ],
+        [
+          "#000000",
+          1
+        ],
+        [
+          "#F2F3F7",
+          1
+        ],
+        [
+          "#FFFFFF 0.53alpha(rgba)",
+          1
+        ],
+        [
+          "#616161 0.36alpha(rgba)",
+          1
+        ],
+        [
+          "#000000 0.2alpha(rgba)",
+          1
+        ]
+      ],
+      "gradients": [
+        [
+          "linear-gradient(149.03deg, rgb(254, 121, 104), rgb(252, 55, 55))",
+          11
+        ],
+        [
+          "linear-gradient(90deg, rgb(240, 240, 240) 25%, rgb(224, 224, 224) 50%, rgb(240, 240, 240) 75%)",
+          11
+        ],
+        [
+          "linear-gradient(360deg, rgb(35, 37, 43), rgba(35, 37, 43, 0))",
+          4
+        ],
+        [
+          "linear-gradient(155.87deg, rgb(254, 121, 104), rgb(252, 55, 55))",
+          2
+        ]
+      ]
+    },
+    "typography": [
+      {
+        "sample": "集团网站 简体中文 登录 首页 服务与产品 解决",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#000000",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "首页 服务与产品 解决方案 服务支持 可持续发展",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#000000",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "首页 服务与产品 解决方案 服务支持 可持续发展",
+        "fontSize": 17.28,
+        "fontWeight": "400",
+        "lineHeight": "17.2796px",
+        "letterSpacing": "normal",
+        "color": "#1A1A1A",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "首页",
+        "fontSize": 17.28,
+        "fontWeight": "400",
+        "lineHeight": "17.2796px",
+        "letterSpacing": "normal",
+        "color": "#1A1A1A",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "服务与产品",
+        "fontSize": 17.28,
+        "fontWeight": "400",
+        "lineHeight": "17.2796px",
+        "letterSpacing": "normal",
+        "color": "#1A1A1A",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "解决方案",
+        "fontSize": 17.28,
+        "fontWeight": "400",
+        "lineHeight": "17.2796px",
+        "letterSpacing": "normal",
+        "color": "#1A1A1A",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "服务支持",
+        "fontSize": 17.28,
+        "fontWeight": "400",
+        "lineHeight": "17.2796px",
+        "letterSpacing": "normal",
+        "color": "#1A1A1A",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "可持续发展",
+        "fontSize": 17.28,
+        "fontWeight": "400",
+        "lineHeight": "17.2796px",
+        "letterSpacing": "normal",
+        "color": "#1A1A1A",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "关于京东物流",
+        "fontSize": 17.28,
+        "fontWeight": "400",
+        "lineHeight": "17.2796px",
+        "letterSpacing": "normal",
+        "color": "#1A1A1A",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "助力企业降本增效 一体化供应链解决方案专家",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#000000",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "助力企业降本增效",
+        "fontSize": 37.44,
+        "fontWeight": "600",
+        "lineHeight": "56.16px",
+        "letterSpacing": "normal",
+        "color": "#1A1A1A",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "一体化供应链解决方案专家",
+        "fontSize": 37.44,
+        "fontWeight": "600",
+        "lineHeight": "56.16px",
+        "letterSpacing": "normal",
+        "color": "#1A1A1A",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "查快递 寄多件更方便 我要寄件 运费&时效查询 ",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#000000",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "查快递",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#000000",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "寄多件更方便 我要寄件 运费&时效查询 服务范围",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#000000",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "面向丰富场景的物流服务",
+        "fontSize": 25.92,
+        "fontWeight": "400",
+        "lineHeight": "30.24px",
+        "letterSpacing": "normal",
+        "color": "#000000",
+        "fontFamily": "FZLTDHK"
+      },
+      {
+        "sample": "快递快运服务 仓配一体服务 大件服务 送仓服务 ",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#000000",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "快递快运服务 向企业及个人客户提供安全可靠、时效",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#000000",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "快递快运服务",
+        "fontSize": 23.04,
+        "fontWeight": "600",
+        "lineHeight": "32.4px",
+        "letterSpacing": "normal",
+        "color": "#23252B",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "产品服务 快递 京东特快 京东标快 增值服务 查",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#000000",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "产品服务",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#000000",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "热门行业解决方案",
+        "fontSize": 25.92,
+        "fontWeight": "400",
+        "lineHeight": "30.24px",
+        "letterSpacing": "normal",
+        "color": "#FFFFFF",
+        "fontFamily": "FZLTDHK"
+      },
+      {
+        "sample": "快消",
+        "fontSize": 23.04,
+        "fontWeight": "600",
+        "lineHeight": "32.4px",
+        "letterSpacing": "normal",
+        "color": "#FFFFFF",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "多渠道多场景的供应链服务能力 广泛的物流网络覆盖",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#FFFFFF",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "了解更多",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#000000",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "服装",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#000000",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "服装",
+        "fontSize": 17.28,
+        "fontWeight": "600",
+        "lineHeight": "23.76px",
+        "letterSpacing": "normal",
+        "color": "#23252B",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "家电",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#000000",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "家电",
+        "fontSize": 17.28,
+        "fontWeight": "600",
+        "lineHeight": "23.76px",
+        "letterSpacing": "normal",
+        "color": "#23252B",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "3C",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#000000",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "3C",
+        "fontSize": 17.28,
+        "fontWeight": "600",
+        "lineHeight": "23.76px",
+        "letterSpacing": "normal",
+        "color": "#23252B",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "汽车",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#000000",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "汽车",
+        "fontSize": 17.28,
+        "fontWeight": "600",
+        "lineHeight": "23.76px",
+        "letterSpacing": "normal",
+        "color": "#23252B",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "生鲜",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#000000",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "生鲜",
+        "fontSize": 17.28,
+        "fontWeight": "600",
+        "lineHeight": "23.76px",
+        "letterSpacing": "normal",
+        "color": "#23252B",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "物流网络",
+        "fontSize": 25.92,
+        "fontWeight": "400",
+        "lineHeight": "30.24px",
+        "letterSpacing": "normal",
+        "color": "#000000",
+        "fontFamily": "FZLTDHK"
+      },
+      {
+        "sample": "0 1 2 3 4 5 6 7 8 9 大网络 ",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#000000",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "0 1 2 3 4 5 6 7 8 9 大网络",
+        "fontSize": 36,
+        "fontWeight": "400",
+        "lineHeight": "36px",
+        "letterSpacing": "normal",
+        "color": "#FC3737",
+        "fontFamily": "JDZhengHT"
+      },
+      {
+        "sample": "0",
+        "fontSize": 36,
+        "fontWeight": "400",
+        "lineHeight": "36px",
+        "letterSpacing": "normal",
+        "color": "#FC3737",
+        "fontFamily": "JDZhengHT"
+      },
+      {
+        "sample": "1",
+        "fontSize": 36,
+        "fontWeight": "400",
+        "lineHeight": "36px",
+        "letterSpacing": "normal",
+        "color": "#FC3737",
+        "fontFamily": "JDZhengHT"
+      },
+      {
+        "sample": "2",
+        "fontSize": 36,
+        "fontWeight": "400",
+        "lineHeight": "36px",
+        "letterSpacing": "normal",
+        "color": "#FC3737",
+        "fontFamily": "JDZhengHT"
+      },
+      {
+        "sample": "3",
+        "fontSize": 36,
+        "fontWeight": "400",
+        "lineHeight": "36px",
+        "letterSpacing": "normal",
+        "color": "#FC3737",
+        "fontFamily": "JDZhengHT"
+      },
+      {
+        "sample": "4",
+        "fontSize": 36,
+        "fontWeight": "400",
+        "lineHeight": "36px",
+        "letterSpacing": "normal",
+        "color": "#FC3737",
+        "fontFamily": "JDZhengHT"
+      },
+      {
+        "sample": "5",
+        "fontSize": 36,
+        "fontWeight": "400",
+        "lineHeight": "36px",
+        "letterSpacing": "normal",
+        "color": "#FC3737",
+        "fontFamily": "JDZhengHT"
+      },
+      {
+        "sample": "6",
+        "fontSize": 36,
+        "fontWeight": "400",
+        "lineHeight": "36px",
+        "letterSpacing": "normal",
+        "color": "#FC3737",
+        "fontFamily": "JDZhengHT"
+      },
+      {
+        "sample": "7",
+        "fontSize": 36,
+        "fontWeight": "400",
+        "lineHeight": "36px",
+        "letterSpacing": "normal",
+        "color": "#FC3737",
+        "fontFamily": "JDZhengHT"
+      },
+      {
+        "sample": "8",
+        "fontSize": 36,
+        "fontWeight": "400",
+        "lineHeight": "36px",
+        "letterSpacing": "normal",
+        "color": "#FC3737",
+        "fontFamily": "JDZhengHT"
+      },
+      {
+        "sample": "9",
+        "fontSize": 36,
+        "fontWeight": "400",
+        "lineHeight": "36px",
+        "letterSpacing": "normal",
+        "color": "#FC3737",
+        "fontFamily": "JDZhengHT"
+      },
+      {
+        "sample": ",600",
+        "fontSize": 36,
+        "fontWeight": "400",
+        "lineHeight": "36px",
+        "letterSpacing": "normal",
+        "color": "#FC3737",
+        "fontFamily": "JDZhengHT"
+      },
+      {
+        "sample": ",400",
+        "fontSize": 36,
+        "fontWeight": "400",
+        "lineHeight": "36px",
+        "letterSpacing": "normal",
+        "color": "#FC3737",
+        "fontFamily": "JDZhengHT"
+      },
+      {
+        "sample": "新闻动态",
+        "fontSize": 25.92,
+        "fontWeight": "400",
+        "lineHeight": "30.24px",
+        "letterSpacing": "normal",
+        "color": "#FFFFFF",
+        "fontFamily": "FZLTDHK"
+      },
+      {
+        "sample": "新闻 2026.05.12 查看详情 一图看懂！",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#0000EE",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "2026.05.12 查看详情",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#0000EE",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "新闻 2026.04.25 查看详情 一图读懂京",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#0000EE",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "2026.04.25 查看详情",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#0000EE",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "2026.04.23 查看详情",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#0000EE",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "新闻 2025.08.14 查看详情 服务获权威",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#0000EE",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "2025.08.14 查看详情",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#0000EE",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "更多新闻 更多活动",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#000000",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "联系我们 950616",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#FFFFFF",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "950616",
+        "fontSize": 72,
+        "fontWeight": "400",
+        "lineHeight": "72px",
+        "letterSpacing": "normal",
+        "color": "#FFFFFF",
+        "fontFamily": "PingFangSC-Regular"
+      },
+      {
+        "sample": "950616",
+        "fontSize": 36,
+        "fontWeight": "400",
+        "lineHeight": "36px",
+        "letterSpacing": "normal",
+        "color": "#FFFFFF",
+        "fontFamily": "JDZhengHT"
+      },
+      {
+        "sample": "更多推荐",
+        "fontSize": 17.28,
+        "fontWeight": "600",
+        "lineHeight": "25.9193px",
+        "letterSpacing": "normal",
+        "color": "#FFFFFF",
+        "fontFamily": "PingFangSC-Medium"
+      },
+      {
+        "sample": "便捷入口",
+        "fontSize": 17.28,
+        "fontWeight": "600",
+        "lineHeight": "25.9193px",
+        "letterSpacing": "normal",
+        "color": "#FFFFFF",
+        "fontFamily": "PingFangSC-Medium"
+      },
+      {
+        "sample": "服务支持",
+        "fontSize": 17.28,
+        "fontWeight": "600",
+        "lineHeight": "25.9193px",
+        "letterSpacing": "normal",
+        "color": "#FFFFFF",
+        "fontFamily": "PingFangSC-Medium"
+      },
+      {
+        "sample": "可持续发展",
+        "fontSize": 17.28,
+        "fontWeight": "600",
+        "lineHeight": "25.9193px",
+        "letterSpacing": "normal",
+        "color": "#FFFFFF",
+        "fontFamily": "PingFangSC-Medium"
+      },
+      {
+        "sample": "关于我们",
+        "fontSize": 17.28,
+        "fontWeight": "600",
+        "lineHeight": "25.9193px",
+        "letterSpacing": "normal",
+        "color": "#FFFFFF",
+        "fontFamily": "PingFangSC-Medium"
+      },
+      {
+        "sample": "友情链接",
+        "fontSize": 17.28,
+        "fontWeight": "600",
+        "lineHeight": "25.9193px",
+        "letterSpacing": "normal",
+        "color": "#FFFFFF",
+        "fontFamily": "PingFangSC-Medium"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "查快递",
+        "rect": {
+          "x": 436,
+          "y": 524,
+          "w": 91,
+          "h": 33
+        },
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "linear-gradient(149.03deg, rgb(254, 121, 104), rgb(252, 55, 55))",
+        "color": "#FFFFFF",
+        "borderRadius": "16.56px",
+        "boxShadow": "none",
+        "padding": "0px"
+      },
+      {
+        "text": "立即咨询",
+        "rect": {
+          "x": 268,
+          "y": 1111,
+          "w": 125,
+          "h": 40
+        },
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "linear-gradient(149.03deg, rgb(254, 121, 104), rgb(252, 55, 55))",
+        "color": "#FFFFFF",
+        "borderRadius": "20.16px",
+        "boxShadow": "rgba(0, 0, 0, 0.06) 0px 11.52px 7.2px 0px",
+        "padding": "0px 30.24px"
+      },
+      {
+        "text": "了解更多",
+        "rect": {
+          "x": 230,
+          "y": 1515,
+          "w": 162,
+          "h": 101
+        },
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "linear-gradient(149.03deg, rgb(254, 121, 104), rgb(252, 55, 55))",
+        "color": "#0000EE",
+        "borderRadius": "13.68px",
+        "boxShadow": "none",
+        "padding": "0px"
+      },
+      {
+        "text": "全网覆盖",
+        "rect": {
+          "x": 716,
+          "y": 2030,
+          "w": 113,
+          "h": 113
+        },
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "linear-gradient(149.03deg, rgb(254, 121, 104), rgb(252, 55, 55))",
+        "color": "#FFFFFF",
+        "borderRadius": "50%",
+        "boxShadow": "none",
+        "padding": "0px"
+      },
+      {
+        "text": "数实融合",
+        "rect": {
+          "x": 843,
+          "y": 2030,
+          "w": 113,
+          "h": 113
+        },
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "linear-gradient(149.03deg, rgb(254, 121, 104), rgb(252, 55, 55))",
+        "color": "#FFFFFF",
+        "borderRadius": "50%",
+        "boxShadow": "none",
+        "padding": "0px"
+      },
+      {
+        "text": "全链共生",
+        "rect": {
+          "x": 971,
+          "y": 2030,
+          "w": 113,
+          "h": 113
+        },
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "linear-gradient(149.03deg, rgb(254, 121, 104), rgb(252, 55, 55))",
+        "color": "#FFFFFF",
+        "borderRadius": "50%",
+        "boxShadow": "none",
+        "padding": "0px"
+      },
+      {
+        "text": "7X24小时服务",
+        "rect": {
+          "x": 1098,
+          "y": 2030,
+          "w": 113,
+          "h": 113
+        },
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "linear-gradient(149.03deg, rgb(254, 121, 104), rgb(252, 55, 55))",
+        "color": "#FFFFFF",
+        "borderRadius": "50%",
+        "boxShadow": "none",
+        "padding": "0px"
+      },
+      {
+        "text": "查看详情",
+        "rect": {
+          "x": 261,
+          "y": 2517,
+          "w": 130,
+          "h": 40
+        },
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "linear-gradient(149.03deg, rgb(254, 121, 104), rgb(252, 55, 55))",
+        "color": "#FFFFFF",
+        "borderRadius": "20.16px",
+        "boxShadow": "none",
+        "padding": "0px"
+      },
+      {
+        "text": "查看详情",
+        "rect": {
+          "x": 470,
+          "y": 2517,
+          "w": 130,
+          "h": 40
+        },
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "linear-gradient(149.03deg, rgb(254, 121, 104), rgb(252, 55, 55))",
+        "color": "#FFFFFF",
+        "borderRadius": "20.16px",
+        "boxShadow": "none",
+        "padding": "0px"
+      },
+      {
+        "text": "查看详情",
+        "rect": {
+          "x": 679,
+          "y": 2517,
+          "w": 130,
+          "h": 40
+        },
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "linear-gradient(149.03deg, rgb(254, 121, 104), rgb(252, 55, 55))",
+        "color": "#FFFFFF",
+        "borderRadius": "20.16px",
+        "boxShadow": "none",
+        "padding": "0px"
+      },
+      {
+        "text": "查看详情",
+        "rect": {
+          "x": 888,
+          "y": 2517,
+          "w": 130,
+          "h": 40
+        },
+        "background": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "linear-gradient(149.03deg, rgb(254, 121, 104), rgb(252, 55, 55))",
+        "color": "#FFFFFF",
+        "borderRadius": "20.16px",
+        "boxShadow": "none",
+        "padding": "0px"
+      }
+    ],
+    "cards": [
+      {
+        "class": "waybill-search-container waybill-input-component",
+        "rect": {
+          "x": 229,
+          "y": 483,
+          "w": 324,
+          "h": 115
+        },
+        "borderRadius": "14.4px",
+        "boxShadow": "none",
+        "background": "#000000 0alpha(rgba)",
+        "backgroundImage": "linear-gradient(155.87deg, rgb(254, 121, 104), rgb(252, 55, "
+      },
+      {
+        "class": "waybill-search",
+        "rect": {
+          "x": 243,
+          "y": 509,
+          "w": 295,
+          "h": 63
+        },
+        "borderRadius": "14.4px",
+        "boxShadow": "none",
+        "background": "#FFFFFF",
+        "backgroundImage": "none"
+      },
+      {
+        "class": "quick-search-wrap",
+        "rect": {
+          "x": 562,
+          "y": 483,
+          "w": 649,
+          "h": 115
+        },
+        "borderRadius": "14.4px",
+        "boxShadow": "rgba(0, 0, 0, 0.02) 0px 11.52px 7.92px 0px",
+        "background": "#FFFFFF 0.9alpha(rgba)",
+        "backgroundImage": "url(\"https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-"
+      },
+      {
+        "class": "card-container animate-slide-up",
+        "rect": {
+          "x": 229,
+          "y": 913,
+          "w": 732,
+          "h": 176
+        },
+        "borderRadius": "14.4px",
+        "boxShadow": "rgba(0, 0, 0, 0.02) 0px 11.52px 7.92px 0px",
+        "background": "#FFFFFF 0.53alpha(rgba)",
+        "backgroundImage": "none"
+      },
+      {
+        "class": "btn animate-slide-up",
+        "rect": {
+          "x": 268,
+          "y": 1111,
+          "w": 125,
+          "h": 40
+        },
+        "borderRadius": "20.16px",
+        "boxShadow": "rgba(0, 0, 0, 0.06) 0px 11.52px 7.2px 0px",
+        "background": "#000000 0alpha(rgba)",
+        "backgroundImage": "linear-gradient(149.03deg, rgb(254, 121, 104), rgb(252, 55, "
+      },
+      {
+        "class": "tab-content",
+        "rect": {
+          "x": 230,
+          "y": 1515,
+          "w": 162,
+          "h": 101
+        },
+        "borderRadius": "13.68px",
+        "boxShadow": "none",
+        "background": "#000000 0alpha(rgba)",
+        "backgroundImage": "linear-gradient(149.03deg, rgb(254, 121, 104), rgb(252, 55, "
+      },
+      {
+        "class": "feature-btn animate",
+        "rect": {
+          "x": 716,
+          "y": 2030,
+          "w": 113,
+          "h": 113
+        },
+        "borderRadius": "50%",
+        "boxShadow": "none",
+        "background": "#000000 0alpha(rgba)",
+        "backgroundImage": "linear-gradient(149.03deg, rgb(254, 121, 104), rgb(252, 55, "
+      },
+      {
+        "class": "feature-btn animate",
+        "rect": {
+          "x": 843,
+          "y": 2030,
+          "w": 113,
+          "h": 113
+        },
+        "borderRadius": "50%",
+        "boxShadow": "none",
+        "background": "#000000 0alpha(rgba)",
+        "backgroundImage": "linear-gradient(149.03deg, rgb(254, 121, 104), rgb(252, 55, "
+      },
+      {
+        "class": "feature-btn animate",
+        "rect": {
+          "x": 971,
+          "y": 2030,
+          "w": 113,
+          "h": 113
+        },
+        "borderRadius": "50%",
+        "boxShadow": "none",
+        "background": "#000000 0alpha(rgba)",
+        "backgroundImage": "linear-gradient(149.03deg, rgb(254, 121, 104), rgb(252, 55, "
+      },
+      {
+        "class": "feature-btn animate",
+        "rect": {
+          "x": 1098,
+          "y": 2030,
+          "w": 113,
+          "h": 113
+        },
+        "borderRadius": "50%",
+        "boxShadow": "none",
+        "background": "#000000 0alpha(rgba)",
+        "backgroundImage": "linear-gradient(149.03deg, rgb(254, 121, 104), rgb(252, 55, "
+      },
+      {
+        "class": "card-main",
+        "rect": {
+          "x": 229,
+          "y": 2303,
+          "w": 194,
+          "h": 259
+        },
+        "borderRadius": "14.4px",
+        "boxShadow": "none",
+        "background": "#D8D8D8",
+        "backgroundImage": "none"
+      },
+      {
+        "class": "btn",
+        "rect": {
+          "x": 261,
+          "y": 2517,
+          "w": 130,
+          "h": 40
+        },
+        "borderRadius": "20.16px",
+        "boxShadow": "none",
+        "background": "#000000 0alpha(rgba)",
+        "backgroundImage": "linear-gradient(149.03deg, rgb(254, 121, 104), rgb(252, 55, "
+      },
+      {
+        "class": "card-main",
+        "rect": {
+          "x": 438,
+          "y": 2303,
+          "w": 194,
+          "h": 259
+        },
+        "borderRadius": "14.4px",
+        "boxShadow": "none",
+        "background": "#D8D8D8",
+        "backgroundImage": "none"
+      },
+      {
+        "class": "btn",
+        "rect": {
+          "x": 470,
+          "y": 2517,
+          "w": 130,
+          "h": 40
+        },
+        "borderRadius": "20.16px",
+        "boxShadow": "none",
+        "background": "#000000 0alpha(rgba)",
+        "backgroundImage": "linear-gradient(149.03deg, rgb(254, 121, 104), rgb(252, 55, "
+      },
+      {
+        "class": "card-main",
+        "rect": {
+          "x": 647,
+          "y": 2303,
+          "w": 194,
+          "h": 259
+        },
+        "borderRadius": "14.4px",
+        "boxShadow": "none",
+        "background": "#D8D8D8",
+        "backgroundImage": "none"
+      },
+      {
+        "class": "btn",
+        "rect": {
+          "x": 679,
+          "y": 2517,
+          "w": 130,
+          "h": 40
+        },
+        "borderRadius": "20.16px",
+        "boxShadow": "none",
+        "background": "#000000 0alpha(rgba)",
+        "backgroundImage": "linear-gradient(149.03deg, rgb(254, 121, 104), rgb(252, 55, "
+      },
+      {
+        "class": "card-main",
+        "rect": {
+          "x": 855,
+          "y": 2303,
+          "w": 194,
+          "h": 259
+        },
+        "borderRadius": "14.4px",
+        "boxShadow": "none",
+        "background": "#D8D8D8",
+        "backgroundImage": "none"
+      },
+      {
+        "class": "btn",
+        "rect": {
+          "x": 888,
+          "y": 2517,
+          "w": 130,
+          "h": 40
+        },
+        "borderRadius": "20.16px",
+        "boxShadow": "none",
+        "background": "#000000 0alpha(rgba)",
+        "backgroundImage": "linear-gradient(149.03deg, rgb(254, 121, 104), rgb(252, 55, "
+      },
+      {
+        "class": "more-card",
+        "rect": {
+          "x": 1071,
+          "y": 2319,
+          "w": 171,
+          "h": 228
+        },
+        "borderRadius": "14.4px",
+        "boxShadow": "none",
+        "background": "#000000 0.2alpha(rgba)",
+        "backgroundImage": "none"
+      }
+    ],
+    "fontFaces": [
+      "@font-face { font-family: JDLangZhengTi; src: url(\"https://jdl-carbon.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/fonts/JDLangzhengTi-Regular.TTF\") format(\"truetype\"); }",
+      "@font-face { font-family: JDZHT; src: url(\"https://jdl-carbon.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/fonts/JDZH_Regular.ttf\") format(\"truetype\"); }",
+      "@font-face { font-family: JDZhengHT; src: url(\"https://jdl-carbon.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/fonts/JDZH_Regular.ttf\") format(\"truetype\"); }",
+      "@font-face { font-family: JDZhengHT-EN; src: url(\"https://jdl-carbon.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/fonts/JDZH_Regular.ttf\") format(\"truetype\"); }",
+      "@font-face { font-family: Roboto; src: url(\"https://jdl-carbon.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/fonts/Roboto-Bold.ttf\") format(\"truetype\"); }",
+      "@font-face { font-family: FZLTDHK; src: url(\"https://jdl-carbon.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/fonts/FZLTDHK.woff2\") format(\"woff2\"), url(\"https://jdl-carbon.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/fonts/FZLTDHK.woff\") format(\"woff\"), url(\"https://jdl-carbon.s3-cache-accelerat",
+      "@font-face { font-family: element-icons; font-style: normal; font-weight: 400; src: url(\"/_nuxt/fonts/313f7da.woff\") format(\"woff\"), url(\"/_nuxt/fonts/4520188.ttf\") format(\"truetype\"); }",
+      "@font-face { font-family: pandora-icons; font-style: normal; font-weight: 400; src: url(\"/_nuxt/fonts/1513a09.woff2\") format(\"woff2\"), url(\"/_nuxt/fonts/c4a248a.woff\") format(\"woff\"), url(\"/_nuxt/fonts/f1bea7d.ttf\") format(\"truetype\"); }"
+    ],
+    "backgrounds": [
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>header.header-common>div.cont>div.main-navi-cnt>div.main-navi-wrap.pageCenterWidth>div.main-navi-bar>ul.first-menu>li.first-menu-item>div.drop-menu-box.white-bg",
+        "cls": "drop-menu-box white-bg",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/nav/nav-bg-1.png",
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/nav/nav-bg-1.png"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>header.header-common>div.cont>div.main-navi-cnt>div.main-navi-wrap.pageCenterWidth>div.main-navi-bar>ul.first-menu>li.first-menu-item>div.drop-menu-box",
+        "cls": "drop-menu-box",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/nav/nav-bg-1.png",
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/nav/nav-bg-1.png"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>header.header-common>div.cont>div.main-navi-cnt>div.main-navi-wrap.pageCenterWidth>div.main-navi-bar>ul.first-menu>li.first-menu-item>div.drop-menu-box",
+        "cls": "drop-menu-box",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/nav/nav-bg-1.png",
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/nav/nav-bg-1.png"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>header.header-common>div.cont>div.main-navi-cnt>div.main-navi-wrap.pageCenterWidth>div.main-navi-bar>ul.first-menu>li.first-menu-item>div.drop-menu-box",
+        "cls": "drop-menu-box",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/nav/nav-bg-1.png",
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/nav/nav-bg-1.png"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>header.header-common>div.cont>div.main-navi-cnt>div.main-navi-wrap.pageCenterWidth>div.main-navi-bar>ul.first-menu>li.first-menu-item>div.drop-menu-box",
+        "cls": "drop-menu-box",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/nav/nav-bg-1.png",
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/nav/nav-bg-1.png"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.search-wrap.detail-wrap>div.input-wrap>div.waybill-search-container.waybill-input-component",
+        "cls": "waybill-search-container waybill-input-component",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.search-wrap.detail-wrap>div.input-wrap>div.waybill-search-container.waybill-input-component>div.waybill-search>div.waybill-search-btn-container>div.waybill-search-btn",
+        "cls": "waybill-search-btn",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.search-wrap.detail-wrap>div.quick-search-wrap",
+        "cls": "quick-search-wrap",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/second-top-bg.png",
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/second-top-bg.png"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.search-wrap.detail-wrap>div.quick-search-wrap>div.search-list>a.search-item>i.icon",
+        "cls": "icon",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/send.png"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.search-wrap.detail-wrap>div.quick-search-wrap>div.search-list>a.search-item>span.tag",
+        "cls": "tag",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.search-wrap.detail-wrap>div.quick-search-wrap>div.search-list>a.search-item>i.icon",
+        "cls": "icon",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/aging-page.png"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.search-wrap.detail-wrap>div.quick-search-wrap>div.search-list>a.search-item>i.icon",
+        "cls": "icon",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/serve-range.png"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.search-wrap.detail-wrap>div.quick-search-wrap>div.search-list>a.search-item>i.icon",
+        "cls": "icon",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/netwwork.png"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.logistics-service>div.detail-wrap>div.service-types-wrapper>div.service-types>div.service-item.active>div.active-bar",
+        "cls": "active-bar",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/service/service-active.png"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.logistics-service>div.detail-wrap>div.service-types-wrapper>div.service-types>div.service-item>div.active-bar",
+        "cls": "active-bar",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/service/service-active.png"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.logistics-service>div.detail-wrap>div.service-types-wrapper>div.service-types>div.service-item>div.active-bar",
+        "cls": "active-bar",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/service/service-active.png"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.logistics-service>div.detail-wrap>div.service-types-wrapper>div.service-types>div.service-item>div.active-bar",
+        "cls": "active-bar",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/service/service-active.png"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.logistics-service>div.detail-wrap>div.service-types-wrapper>div.service-types>div.service-item>div.active-bar",
+        "cls": "active-bar",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/service/service-active.png"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.logistics-service>div.detail-wrap>div.service-types-wrapper>div.service-types>div.service-item>div.active-bar",
+        "cls": "active-bar",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/service/service-active.png"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.logistics-service>div.detail-wrap>div.service-types-wrapper>div.service-types>div.service-item>div.active-bar",
+        "cls": "active-bar",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/service/service-active.png"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.logistics-service>div.detail-wrap>div.service-types-wrapper>div.service-types>div.service-item>div.active-bar",
+        "cls": "active-bar",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/service/service-active.png"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.logistics-service>div.detail-wrap>div.service-types-wrapper>div.service-types>div.service-item>div.active-bar",
+        "cls": "active-bar",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/service/service-active.png"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.logistics-service>div.detail-wrap>div.service-types-wrapper>div.service-types>div.service-item>div.active-bar",
+        "cls": "active-bar",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/service/service-active.png"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.logistics-service>div.detail-wrap>div.service-content>div>div.card-container.animate-slide-up>div.cards-wrapper>div.service-card>div.card-item>div.card-header>div.icon-title>span.icon",
+        "cls": "icon",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/service/icon-group.png"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.logistics-service>div.detail-wrap>div.service-content>div>a.btn.animate-slide-up",
+        "cls": "btn animate-slide-up",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.industry-solutions",
+        "cls": "industry-solutions",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/solution/consumer.jpeg"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.industry-solutions>div.detail-wrap>div.industry-tabs>div.tab-item.active>a.tab-content",
+        "cls": "tab-content",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.industry-solutions>div.detail-wrap>div.industry-tabs>div.tab-item>a.tab-content",
+        "cls": "tab-content",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.industry-solutions>div.detail-wrap>div.industry-tabs>div.tab-item>a.tab-content",
+        "cls": "tab-content",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.industry-solutions>div.detail-wrap>div.industry-tabs>div.tab-item>a.tab-content",
+        "cls": "tab-content",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.industry-solutions>div.detail-wrap>div.industry-tabs>div.tab-item>a.tab-content",
+        "cls": "tab-content",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.industry-solutions>div.detail-wrap>div.industry-tabs>div.tab-item>a.tab-content",
+        "cls": "tab-content",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.logistics-network",
+        "cls": "logistics-network",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/network/network-bg2.png",
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/network/network-bg.jpg"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.logistics-network>div.content-wrapper>div.detail-wrap>div.network-features>div.feature-btn.animate",
+        "cls": "feature-btn animate",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.logistics-network>div.content-wrapper>div.detail-wrap>div.network-features>div.feature-btn.animate",
+        "cls": "feature-btn animate",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.logistics-network>div.content-wrapper>div.detail-wrap>div.network-features>div.feature-btn.animate",
+        "cls": "feature-btn animate",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.logistics-network>div.content-wrapper>div.detail-wrap>div.network-features>div.feature-btn.animate",
+        "cls": "feature-btn animate",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.news-updates",
+        "cls": "news-updates",
+        "urls": [
+          "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1778584332412.jpg"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.news-updates>div.detail-wrap>div.carousel-wrapper>div.news-list>a.news-card>div.card-main>div.hover-mask",
+        "cls": "hover-mask",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.news-updates>div.detail-wrap>div.carousel-wrapper>div.news-list>a.news-card>div.card-main>div.hover-mask>div.btn",
+        "cls": "btn",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.news-updates>div.detail-wrap>div.carousel-wrapper>div.news-list>a.news-card>div.card-main>img.card-image",
+        "cls": "card-image",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.news-updates>div.detail-wrap>div.carousel-wrapper>div.news-list>a.news-card>div.card-main>div.hover-mask",
+        "cls": "hover-mask",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.news-updates>div.detail-wrap>div.carousel-wrapper>div.news-list>a.news-card>div.card-main>div.hover-mask>div.btn",
+        "cls": "btn",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.news-updates>div.detail-wrap>div.carousel-wrapper>div.news-list>a.news-card>div.card-main>img.card-image",
+        "cls": "card-image",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.news-updates>div.detail-wrap>div.carousel-wrapper>div.news-list>a.news-card>div.card-main>div.hover-mask",
+        "cls": "hover-mask",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.news-updates>div.detail-wrap>div.carousel-wrapper>div.news-list>a.news-card>div.card-main>div.hover-mask>div.btn",
+        "cls": "btn",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.news-updates>div.detail-wrap>div.carousel-wrapper>div.news-list>a.news-card>div.card-main>img.card-image",
+        "cls": "card-image",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.news-updates>div.detail-wrap>div.carousel-wrapper>div.news-list>a.news-card>div.card-main>div.hover-mask",
+        "cls": "hover-mask",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.news-updates>div.detail-wrap>div.carousel-wrapper>div.news-list>a.news-card>div.card-main>div.hover-mask>div.btn",
+        "cls": "btn",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.contact-footer>div.detail-wrap>div.info-section>div.contact-list>div.contact-item>span>span.el-popover__reference-wrapper>div.icon-wrap.el-popover__reference>img.icon",
+        "cls": "icon",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.contact-footer>div.detail-wrap>div.info-section>div.contact-list>div.contact-item>span>span.el-popover__reference-wrapper>div.icon-wrap.el-popover__reference>img.icon",
+        "cls": "icon",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div.contact-footer>div.detail-wrap>div.info-section>div.contact-list>div.contact-item>span>span.el-popover__reference-wrapper>div.icon-wrap.el-popover__reference>img.icon",
+        "cls": "icon",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div>div.bc-order-modal>div.order-modal-content>div.modal-content-item>div.img-box",
+        "cls": "img-box",
+        "urls": [
+          "https://jfe.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/express/global_express_pc/img/menu/expressage-back.png"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div>div.bc-order-modal>div.order-modal-content>div.modal-content-item>div.img-box",
+        "cls": "img-box",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/jfe/heavy-back-v1.png"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div>div.bc-order-modal>div.order-modal-content>div.modal-content-item>div.img-box",
+        "cls": "img-box",
+        "urls": [
+          "https://jfe.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/express/global_express_pc/img/menu/fresh-back.png"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div>div>div.bc-order-modal>div.order-modal-content>div.modal-content-item>div.img-box",
+        "cls": "img-box",
+        "urls": [
+          "https://jfe.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/express/global_express_pc/img/menu/hk-back.png"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>footer.footer-common>div.footer-content.detail-wrap>div.beian-wrap>img",
+        "cls": "",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>footer.footer-common>div.footer-content.detail-wrap>div.beian-wrap>img",
+        "cls": "",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>footer.footer-common>div.footer-content.detail-wrap>div.beian-wrap>img",
+        "cls": "",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>footer.footer-common>div.footer-content.detail-wrap>div.beian-wrap>img",
+        "cls": "",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>footer.footer-common>div.footer-content.detail-wrap>div.beian-wrap>img",
+        "cls": "",
+        "urls": []
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div.home-float>div.sidebar-list>div.sidebar-item.sidebar-item-qiwei>span>span.el-popover__reference-wrapper>div.el-popover__reference>div.icon-wrap>div.icon.icon-qiwei",
+        "cls": "icon icon-qiwei",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/sidebar/enterprise-WeChat-action.webp"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div.home-float>div.sidebar-list>div.sidebar-item>span>div#el-popover-671.el-popover.el-popper>div.popper-content>div.popper-list>a.popper-item>div.icon.icon-user",
+        "cls": "icon icon-user",
+        "urls": [
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAflBMVEUAAAAgICEiJCsiJCouLi4jJSsjJCojJSsjJSslJS8jJionJywjJSoiJColJSsjJSsiJSoiJSoiJywkJCwjJCskJSkiJSwjJSsjJSskJSskJCsjJCsjJSwjJiwjIy8iJCsjJSsjJCsjJSsjJSsjJSwkJCsjJSskJSwkJysjJSs2WNz2AAAAKXRSTlMAB937BffYpY0WThru5Avp0VgRRLY/McivOSO8n3cr87+B4eCWcGZibzDcOTgAAAItSURBVFjD7VfblqIwEDQmIUTCHQRUHNAZHf7/B7fD5OyyJkoy2ac9Uy8cmnR1ddkkuPnvQRAi308+f7ImCBr2eSbfSa8riqcZmFa1M0XE6LQAZZFb/j5TtdNU6cj2TvmxzInDkicJL8OvOweGSNanYfT7PqRSg3UXhMFykS9DuYAQs3WyplBf5i8ZZKy2FFBBtfAxGkKwspNwpuBYpPkSg4SzFcEHVgI0CfjDioDBylIPl8DLrCxoQCvX4xw6a2xMQME0pcgQT6cpQN4E3i34muj9M3oPkvco+75M3q+z74biu6X5bqre27ojSDks8kdOHPP5vXpbKMCiunOH9EOY4ukBOA0PlunFKFQOpiKOBcWKTYyF1SBmeM6+nm4dRwDe3U7Xr1hWr5vXz73Tdpcsw8mupTL+1q+4mbxjWantiMbctfOj9+RlPpOLLjkxissvkoG9YCBz/eNTtw/HWcPzLnosK7ywumByRf/Uf+kfW+lROlk/oc+k/mJlSGQXmXnRCPKuh9UpvUITo/GJgCe5ukHIfAXkUEfIOqZts1UG74Jgp10VSDsZ932ewvzt/xxvAdKuCnuYyZRrBHcsBdgQSAn4bjoNMMhcbwHusOGMKASMMIzAqomA5AI2Foaz87SxxMlw/vYQu9kS3KBabyDtbAk6XS45zp8VluAUZp5o3yWiQJaQjjdE+zLCW2tg7XsJbSdHbP8mIIMrwUAejB22Thg6/R+eE8jmB/8MvwC6ZlzMUM423AAAAABJRU5ErkJggg=="
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div.home-float>div.sidebar-list>div.sidebar-item>span>div#el-popover-671.el-popover.el-popper>div.popper-content>div.popper-list>a.popper-item>div.icon.icon-sell",
+        "cls": "icon icon-sell",
+        "urls": [
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAllBMVEUAAAAjJSoeHjIrLzYiJCsjJSsgJywiIy4iJCsjJSskJCwjJiwjJiskJiwiJSskJCwjJSojJSsjJSskJCojJCoiJCoiJSoiJCsiJSsiJCskJC0tLS0iJCsjJCojJCojJSsjJSsjJSsjJSskJSwiJCsiJCoiJSsjJCoiJCojJSojJSsiJCojJSojJSshJCojJisjJysjJSuLcpXiAAAAMXRSTlMA/AgE+fYnFfLwaFZ4f4YNOMmlHtLezeLFi1QK7NiwoJlaST4atpL05qqBu3BeVDIqyOU1iQAAAlFJREFUWMPtVdfSskAMxV1UUFR6ESkqYC+8/8v9Wf0w9DLjzT/juXHSDnsSJ+F++DpINOmA5raU05k+5jswNqRmColPe2AU0ob6vcDCHYAUfl5fv1KgXL3f1wzzJjjwSkOrJTgDu73iOkBVeINaJ0IGAaLMdUIzUERFwILrgS2KGCwARQR0uAAUYaGIwQJQRNQgYKgIFCCggH4i1miTCwroL8LDF+/BVNDsKWI0+5hOmo7lQhz1Nfi0Y5r6NAvZaWqSfDQJnuX6qRM8Sk/QSWYooIDkgicgnJbmHEOOm8sJgODzpjCTgB1K1UJP3GDE+owqIpAQf8wdRPVJxr0TX2vjMsmln0bMx19p5mBzuyK/CVHrOqWUkklySN/YOLJLGbSr8efiVZmAY7X1wDhGuV20Yd+0TqFqvsqVpfjKN+IwCRSRfX7s+OyH1yHJeDm2hW3m5ZdeHNG9zpLQZazpKuRTxOZGi1MKswLe2xLW9pvJf8otiQ2FzpXMhU3HOQng9cx4ucvaT2RJtXXdvCTraeban33F00GmQConBVQ7pPQXhKbWuZwmAonrh8WP4Efw/xCQMgYS3AzxD8Ibxm0QATXTMnQyiCCuEPh0kARNWhYhad+dglglgMXc90CfYadWCeDkJ7TfaU7gtpOK18YD2QHCbilFG288v+tFsIPlvqy6ZXDrWo96TYdP7WuU+TBs80G7GvAw8U9RxPMIEeEkzdqw8AV2V5/12jbvQ9aG911s6pVsQ0InRrbcPKC7ah3GbThY6t1t7RFxp21YEcr98G38A/p7d3TdQ4OBAAAAAElFTkSuQmCC"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div.home-float>div.sidebar-list>div.sidebar-item>span>span.el-popover__reference-wrapper>div.el-popover__reference>div.icon-wrap>div.icon.icon-chat",
+        "cls": "icon icon-chat",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/sidebar/icon-chat.png"
+        ]
+      },
+      {
+        "path": "div#__nuxt>div#__layout>div.home-page>div.route-container>div>div.home-float>div.sidebar-list>div.sidebar-item>div.icon-wrap>div.icon.icon-contact",
+        "cls": "icon icon-contact",
+        "urls": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/sidebar/icon-contact.png"
+        ]
+      }
+    ],
+    "mediaQueries": [
+      "screen and (min-width: 880px)",
+      "screen and (max-width: 880px)",
+      "(min-width: 881px)",
+      "(max-width: 880px)",
+      "(max-width: 1100px)",
+      "screen and (max-width: 1000px)",
+      "screen and (max-width: 1440px)",
+      "screen and (max-width: 1280px)",
+      "screen and (max-width: 960px)",
+      "screen and (min-width: 1600px)",
+      "screen and (min-width: 960px)",
+      "only screen and (min-width: 600px)",
+      "screen and (max-width: 1680px)",
+      "screen and (max-width: 0.144rem)",
+      "screen and (max-width: 0.12rem)",
+      "screen and (max-width: 0.1rem)",
+      "only screen and (max-width: 767px)",
+      "only screen and (min-width: 768px)",
+      "only screen and (min-width: 992px)",
+      "only screen and (min-width: 1200px)",
+      "only screen and (min-width: 1920px)",
+      "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx)",
+      "(-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 3), (min-resolution: 2dppx) and (min-resolution: 3dppx)",
+      "screen and (orientation: landscape) and (max-height: 680px)"
+    ]
+  },
+  "content": {
+    "meta": {
+      "title": "京东物流 省心高效|技术驱动_快递物流双服务,助力千万家企业降本增效",
+      "description": "京东物流是中国领先的综合快递物流公司,无论是日常个人寄快递、大规模物流运输,还是专业的大件物流货运,均能从容应对。致力于提供安心无忧的寄快递体验与便捷高效的物流查询服务。客服专线950616,7*24小时服务。",
+      "keywords": "京东物流,快递,物流,大件物流,冷链物流,跨境物流,供应链,寄快递,查快递,快递收费"
+    },
+    "heroSlides": [
+      {
+        "index": 0,
+        "text": "助力企业降本增效 一体化供应链解决方案专家 | 助力企业降本增效 | 一体化供应链解决方案专家",
+        "images": []
+      },
+      {
+        "index": 1,
+        "text": "",
+        "images": [
+          "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1791613642202.jpg"
+        ]
+      },
+      {
+        "index": 2,
+        "text": "",
+        "images": [
+          "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1789093630895.jpeg"
+        ]
+      },
+      {
+        "index": 3,
+        "text": "",
+        "images": [
+          "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1789720893747.jpeg"
+        ]
+      },
+      {
+        "index": 4,
+        "text": "",
+        "images": [
+          "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1767858541029.jpg"
+        ]
+      },
+      {
+        "index": 5,
+        "text": "",
+        "images": [
+          "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1789093547877.jpeg"
+        ]
+      }
+    ],
+    "searchEntries": 1,
+    "serviceDetailText": "快递快运服务 向企业及个人客户提供安全可靠、时效领先、专业贴心的快递及快运服务，以及在此基础上的多种增值服务 产品服务 快递 京东特快 京东标快 增值服务 查看更多 快运 重货标快 整车直达 增值服务 立即咨询",
+    "serviceCards": [
+      {
+        "text": "快递快运服务",
+        "rect": {
+          "x": 229,
+          "y": 700,
+          "w": 197,
+          "h": 72
+        },
+        "images": [
+          null
+        ]
+      },
+      {
+        "text": "仓配一体服务",
+        "rect": {
+          "x": 426,
+          "y": 700,
+          "w": 197,
+          "h": 72
+        },
+        "images": [
+          null
+        ]
+      },
+      {
+        "text": "大件服务",
+        "rect": {
+          "x": 622,
+          "y": 700,
+          "w": 197,
+          "h": 72
+        },
+        "images": [
+          null
+        ]
+      },
+      {
+        "text": "送仓服务",
+        "rect": {
+          "x": 819,
+          "y": 700,
+          "w": 197,
+          "h": 72
+        },
+        "images": [
+          null
+        ]
+      },
+      {
+        "text": "冷链服务",
+        "rect": {
+          "x": 1015,
+          "y": 700,
+          "w": 197,
+          "h": 72
+        },
+        "images": [
+          null
+        ]
+      },
+      {
+        "text": "医药服务",
+        "rect": {
+          "x": 1212,
+          "y": 700,
+          "w": 197,
+          "h": 72
+        },
+        "images": [
+          null
+        ]
+      },
+      {
+        "text": "京东服务",
+        "rect": {
+          "x": 1408,
+          "y": 700,
+          "w": 197,
+          "h": 72
+        },
+        "images": [
+          null
+        ]
+      },
+      {
+        "text": "运力服务",
+        "rect": {
+          "x": 1605,
+          "y": 700,
+          "w": 197,
+          "h": 72
+        },
+        "images": [
+          null
+        ]
+      },
+      {
+        "text": "国际物流",
+        "rect": {
+          "x": 1801,
+          "y": 700,
+          "w": 197,
+          "h": 72
+        },
+        "images": [
+          null
+        ]
+      },
+      {
+        "text": "物流科技",
+        "rect": {
+          "x": 1998,
+          "y": 700,
+          "w": 197,
+          "h": 72
+        },
+        "images": [
+          null
+        ]
+      },
+      {
+        "text": "产品服务 快递 京东特快 京东标快 增值服务 查看更多 快运 重货标快 整车直达 增值服务",
+        "rect": {
+          "x": 231,
+          "y": 951,
+          "w": 509,
+          "h": 101
+        },
+        "images": []
+      },
+      {
+        "text": "产品服务 快递 京东特快 京东标快 增值服务 查看更多 快运 重货标快 整车直达 增值服务",
+        "rect": {
+          "x": 231,
+          "y": 951,
+          "w": 509,
+          "h": 101
+        },
+        "images": []
+      },
+      {
+        "text": "产品服务 快递 京东特快 京东标快 增值服务 查看更多 快运 重货标快 整车直达 增值服务",
+        "rect": {
+          "x": 231,
+          "y": 951,
+          "w": 346,
+          "h": 101
+        },
+        "images": []
+      },
+      {
+        "text": "产品服务",
+        "rect": {
+          "x": 231,
+          "y": 980,
+          "w": 122,
+          "h": 42
+        },
+        "images": []
+      },
+      {
+        "text": "快递",
+        "rect": {
+          "x": 375,
+          "y": 951,
+          "w": 86,
+          "h": 14
+        },
+        "images": []
+      },
+      {
+        "text": "京东特快",
+        "rect": {
+          "x": 375,
+          "y": 972,
+          "w": 86,
+          "h": 14
+        },
+        "images": []
+      },
+      {
+        "text": "京东标快",
+        "rect": {
+          "x": 375,
+          "y": 994,
+          "w": 86,
+          "h": 14
+        },
+        "images": []
+      },
+      {
+        "text": "增值服务",
+        "rect": {
+          "x": 375,
+          "y": 1016,
+          "w": 86,
+          "h": 14
+        },
+        "images": []
+      },
+      {
+        "text": "查看更多",
+        "rect": {
+          "x": 375,
+          "y": 1037,
+          "w": 86,
+          "h": 14
+        },
+        "images": []
+      },
+      {
+        "text": "快运",
+        "rect": {
+          "x": 491,
+          "y": 951,
+          "w": 86,
+          "h": 14
+        },
+        "images": []
+      }
+    ],
+    "industryTabs": [
+      {
+        "text": "了解更多 服装 家电 3C 汽车 生鲜",
+        "href": null,
+        "rect": {
+          "x": 229,
+          "y": 1530,
+          "w": 982,
+          "h": 70
+        },
+        "images": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "text": "了解更多",
+        "href": null,
+        "rect": {
+          "x": 230,
+          "y": 1530,
+          "w": 162,
+          "h": 70
+        },
+        "images": [
+          null
+        ]
+      },
+      {
+        "text": "了解更多",
+        "href": "/consumerGoods",
+        "rect": {
+          "x": 230,
+          "y": 1515,
+          "w": 162,
+          "h": 101
+        },
+        "images": [
+          null
+        ]
+      },
+      {
+        "text": "",
+        "href": null,
+        "rect": {
+          "x": 275,
+          "y": 1490,
+          "w": 72,
+          "h": 72
+        },
+        "images": []
+      },
+      {
+        "text": "服装",
+        "href": null,
+        "rect": {
+          "x": 393,
+          "y": 1530,
+          "w": 162,
+          "h": 70
+        },
+        "images": [
+          null
+        ]
+      },
+      {
+        "text": "了解更多",
+        "href": "/dress",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "images": [
+          null
+        ]
+      },
+      {
+        "text": "",
+        "href": null,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "images": []
+      },
+      {
+        "text": "家电",
+        "href": null,
+        "rect": {
+          "x": 557,
+          "y": 1530,
+          "w": 162,
+          "h": 70
+        },
+        "images": [
+          null
+        ]
+      },
+      {
+        "text": "了解更多",
+        "href": "/homeAppliances",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "images": [
+          null
+        ]
+      },
+      {
+        "text": "",
+        "href": null,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "images": []
+      },
+      {
+        "text": "3C",
+        "href": null,
+        "rect": {
+          "x": 721,
+          "y": 1530,
+          "w": 162,
+          "h": 70
+        },
+        "images": [
+          null
+        ]
+      },
+      {
+        "text": "了解更多",
+        "href": "/digital",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "images": [
+          null
+        ]
+      },
+      {
+        "text": "",
+        "href": null,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "images": []
+      },
+      {
+        "text": "汽车",
+        "href": null,
+        "rect": {
+          "x": 884,
+          "y": 1530,
+          "w": 162,
+          "h": 70
+        },
+        "images": [
+          null
+        ]
+      },
+      {
+        "text": "了解更多",
+        "href": "/carService",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "images": [
+          null
+        ]
+      },
+      {
+        "text": "",
+        "href": null,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "images": []
+      },
+      {
+        "text": "生鲜",
+        "href": null,
+        "rect": {
+          "x": 1048,
+          "y": 1530,
+          "w": 162,
+          "h": 70
+        },
+        "images": [
+          null
+        ]
+      },
+      {
+        "text": "了解更多",
+        "href": "/freshSolution",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "images": [
+          null
+        ]
+      },
+      {
+        "text": "",
+        "href": null,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "w": 0,
+          "h": 0
+        },
+        "images": []
+      }
+    ],
+    "industryText": "热门行业解决方案 京东物流完善的服务体系为企业保驾护航 快消 为消费品行业客户提供数字化、可视化、智能化的一体解决方案，向客户提供全渠道 E2E 服务，实现供应链升级 多渠道多场景的供应链服务能力 广泛的物流网络覆盖能力 了解更多 服装 家电 3C 汽车 生鲜",
+    "networkStats": "物流网络 遍布全球的基础设施为物流提供快速稳定、智能可靠的服务 0 1 2 3 4 5 6 7 8 9 大网络 仓储网络、综合运输网络、最后一公里配送网络、大件网络、冷链物流网络和跨境物流网络 0 1 2 3 4 5 6 7 8 9 ,600 个 京东物流已拥有超3600个仓库 0 1 2 3 4 5 6 7 8 9 ,400 万平方米 仓库总管理面积超3400万平方米 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 个 京东物流海外仓已覆盖全球25个国家和地区 全网覆盖 数实融合 全链共生 7X24小时服务",
+    "newsCards": [
+      {
+        "class": "news-card",
+        "text": "新闻 2026.05.12 查看详情 一图看懂！京东物流Q1收入同比增长29% 创上市以来一季度最佳利润表现",
+        "rect": {
+          "x": 229,
+          "y": 2303,
+          "w": 194,
+          "h": 305
+        },
+        "images": [
+          "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1778584332412.jpg"
+        ]
+      },
+      {
+        "class": "card-main",
+        "text": "新闻 2026.05.12 查看详情",
+        "rect": {
+          "x": 229,
+          "y": 2303,
+          "w": 194,
+          "h": 259
+        },
+        "images": [
+          "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1778584332412.jpg"
+        ]
+      },
+      {
+        "class": "news-card",
+        "text": "新闻 2026.04.25 查看详情 一图读懂京东物流2025年ESG报告",
+        "rect": {
+          "x": 438,
+          "y": 2303,
+          "w": 194,
+          "h": 305
+        },
+        "images": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ]
+      },
+      {
+        "class": "card-main",
+        "text": "新闻 2026.04.25 查看详情",
+        "rect": {
+          "x": 438,
+          "y": 2303,
+          "w": 194,
+          "h": 259
+        },
+        "images": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ]
+      },
+      {
+        "class": "news-card",
+        "text": "新闻 2026.04.23 查看详情 全球最高标准京东物流斩获国际软件研发诺贝尔奖",
+        "rect": {
+          "x": 647,
+          "y": 2303,
+          "w": 194,
+          "h": 305
+        },
+        "images": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ]
+      },
+      {
+        "class": "card-main",
+        "text": "新闻 2026.04.23 查看详情",
+        "rect": {
+          "x": 647,
+          "y": 2303,
+          "w": 194,
+          "h": 259
+        },
+        "images": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ]
+      },
+      {
+        "class": "news-card",
+        "text": "新闻 2025.08.14 查看详情 服务获权威认可！京东物流旗下JD Express Investment获香港海关AEO认证",
+        "rect": {
+          "x": 855,
+          "y": 2303,
+          "w": 194,
+          "h": 305
+        },
+        "images": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ]
+      },
+      {
+        "class": "card-main",
+        "text": "新闻 2025.08.14 查看详情",
+        "rect": {
+          "x": 855,
+          "y": 2303,
+          "w": 194,
+          "h": 259
+        },
+        "images": [
+          "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        ]
+      },
+      {
+        "class": "more-card",
+        "text": "更多新闻 更多活动",
+        "rect": {
+          "x": 1071,
+          "y": 2319,
+          "w": 171,
+          "h": 228
+        },
+        "images": []
+      }
+    ],
+    "contact": "联系我们 950616",
+    "footer": {
+      "text": "更多推荐 京东服务 最新资讯 航空业务合作 商家优惠通道 便捷入口 商家工作台 电子合同签约 意见反馈 服务支持 寄快递 查快递 服务范围查询 服务细则 物流合作 可持续发展 ESG 碳足迹计算 关于我们 公司介绍 新闻公告 投资者关系 联系我们 政企合作 友情链接 德邦快递 2004-2026@京东物流版权所有 投资者关系 Investor Relations 服务细则 个人信息保护规则 营业执照 京公网安备11011502005548号 增值电信业务经营许可证：京ICP备20010510号-7",
+      "columns": [],
+      "images": [
+        {
+          "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/home/ba-wangan.png",
+          "alt": "",
+          "rect": {
+            "x": 590,
+            "y": 3024,
+            "w": 64,
+            "h": 24
+          }
+        },
+        {
+          "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/home/ba-kexin.png",
+          "alt": "",
+          "rect": {
+            "x": 668,
+            "y": 3024,
+            "w": 72,
+            "h": 24
+          }
+        },
+        {
+          "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/home/ba-police.png",
+          "alt": "",
+          "rect": {
+            "x": 754,
+            "y": 3024,
+            "w": 22,
+            "h": 24
+          }
+        },
+        {
+          "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/home/ba-anwang.png",
+          "alt": "",
+          "rect": {
+            "x": 791,
+            "y": 3024,
+            "w": 21,
+            "h": 24
+          }
+        },
+        {
+          "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/home/ba-guoan.png",
+          "alt": "",
+          "rect": {
+            "x": 826,
+            "y": 3024,
+            "w": 24,
+            "h": 24
+          }
+        }
+      ]
+    },
+    "nav": [
+      {
+        "label": "服务与产品",
+        "box": {
+          "x": null,
+          "y": null,
+          "w": null,
+          "h": null
+        },
+        "tabs": [
+          "企业服务",
+          "个人服务"
+        ],
+        "groups": [
+          {
+            "title": "物流服务",
+            "items": [
+              {
+                "label": "快递服务",
+                "href": "https://www.jdl.com/express"
+              },
+              {
+                "label": "快运服务",
+                "href": "https://www.jdl.com/freight"
+              },
+              {
+                "label": "仓配一体",
+                "href": "https://www.jdl.com/supplyChain"
+              },
+              {
+                "label": "大件服务",
+                "href": "https://www.jdl.com/bulky"
+              },
+              {
+                "label": "送仓服务",
+                "href": "https://www.jdl.com/reachWarehouse"
+              },
+              {
+                "label": "冷链服务",
+                "href": "https://www.jdl.com/coldChain"
+              },
+              {
+                "label": "医药服务",
+                "href": "https://www.jdl.com/medicine"
+              },
+              {
+                "label": "国际服务",
+                "href": "https://www.jdl.com/crossBorder"
+              }
+            ]
+          },
+          {
+            "title": "物流科技",
+            "items": [
+              {
+                "label": "物流机器人",
+                "href": "javascript:void(0)"
+              },
+              {
+                "label": "数智供应链",
+                "href": "javascript:void(0)"
+              },
+              {
+                "label": "低碳供应链",
+                "href": "javascript:void(0)"
+              }
+            ]
+          },
+          {
+            "title": "物流运力",
+            "items": [
+              {
+                "label": "专线包仓",
+                "href": "https://www.jdl.com/capacity/dedicatedLine"
+              },
+              {
+                "label": "全货机包机",
+                "href": "https://www.jdl.com/capacity/fullCargo"
+              }
+            ]
+          },
+          {
+            "title": "增值服务",
+            "items": [
+              {
+                "label": "快递",
+                "href": "https://www.jdl.com/express/addValueService"
+              },
+              {
+                "label": "快运",
+                "href": "https://www.jdl.com/freight/addValueService"
+              },
+              {
+                "label": "仓配一体",
+                "href": "https://www.jdl.com/supplyChain/addValueService"
+              },
+              {
+                "label": "大件",
+                "href": "https://www.jdl.com/bulky/addValueService"
+              },
+              {
+                "label": "送仓",
+                "href": "https://www.jdl.com/reachWarehouse/addValueService"
+              },
+              {
+                "label": "冷链",
+                "href": "https://www.jdl.com/coldChain/addValueService"
+              },
+              {
+                "label": "医药",
+                "href": "https://www.jdl.com/medicine/addValueService"
+              }
+            ]
+          },
+          {
+            "title": "京东服务",
+            "items": [
+              {
+                "label": "安装服务",
+                "href": "https://www.jdl.com/servicePlus/install"
+              },
+              {
+                "label": "维修服务",
+                "href": "https://www.jdl.com/servicePlus/repair"
+              },
+              {
+                "label": "机器人服务",
+                "href": "https://www.jdl.com/servicePlus/robot/"
+              }
+            ]
+          },
+          {
+            "title": "寄快递",
+            "items": [
+              {
+                "label": "京东特快",
+                "href": "https://www.jdl.com/express/jdFastest"
+              },
+              {
+                "label": "京东标快",
+                "href": "https://www.jdl.com/express/jdStandard"
+              },
+              {
+                "label": "生鲜特快",
+                "href": "https://www.jdl.com/express/freshFastest"
+              },
+              {
+                "label": "生鲜标快",
+                "href": "https://www.jdl.com/express/freshStandard"
+              },
+              {
+                "label": "送同城",
+                "href": "https://www.jdl.com/express/sameCity"
+              },
+              {
+                "label": "增值服务",
+                "href": "https://www.jdl.com/express/addValueService"
+              }
+            ]
+          },
+          {
+            "title": "发重货",
+            "items": [
+              {
+                "label": "重货标快",
+                "href": "https://www.jdl.com/freight/fastCargo"
+              },
+              {
+                "label": "整车直达",
+                "href": "https://www.jdl.com/freight/completeVehicle"
+              },
+              {
+                "label": "增值服务",
+                "href": "https://www.jdl.com/freight/addValueService"
+              }
+            ]
+          },
+          {
+            "title": "寄国际",
+            "items": [
+              {
+                "label": "国际快递",
+                "href": "https://www.jdl.com/crossBorder/internationalC2C"
+              }
+            ]
+          },
+          {
+            "title": "找服务",
+            "items": [
+              {
+                "label": "安装服务",
+                "href": "https://www.jdl.com/servicePlus/install"
+              },
+              {
+                "label": "维修服务",
+                "href": "https://www.jdl.com/servicePlus/repair"
+              },
+              {
+                "label": "清洗服务",
+                "href": "https://www.jdl.com/servicePlus/cleaning"
+              }
+            ]
+          }
+        ],
+        "flatLinks": [
+          {
+            "label": "物流服务",
+            "href": "javascript:void(0)"
+          },
+          {
+            "label": "快递服务",
+            "href": "https://www.jdl.com/express"
+          },
+          {
+            "label": "快运服务",
+            "href": "https://www.jdl.com/freight"
+          },
+          {
+            "label": "仓配一体",
+            "href": "https://www.jdl.com/supplyChain"
+          },
+          {
+            "label": "大件服务",
+            "href": "https://www.jdl.com/bulky"
+          },
+          {
+            "label": "送仓服务",
+            "href": "https://www.jdl.com/reachWarehouse"
+          },
+          {
+            "label": "冷链服务",
+            "href": "https://www.jdl.com/coldChain"
+          },
+          {
+            "label": "医药服务",
+            "href": "https://www.jdl.com/medicine"
+          },
+          {
+            "label": "国际服务",
+            "href": "https://www.jdl.com/crossBorder"
+          },
+          {
+            "label": "物流科技",
+            "href": "javascript:void(0)"
+          },
+          {
+            "label": "物流机器人",
+            "href": "javascript:void(0)"
+          },
+          {
+            "label": "・京东物流智狼(标准版)",
+            "href": "https://lang.jdl.com/product/106?type=1&category=1"
+          },
+          {
+            "label": "・京东物流智狼(扩展版)",
+            "href": "https://lang.jdl.com/product/110?type=1&category=4"
+          },
+          {
+            "label": "・京东物流智狼(穿梭版）",
+            "href": "https://lang.jdl.com/product/92?type=1&category=4"
+          },
+          {
+            "label": "・京东物流天狼(四向版)",
+            "href": "https://lang.jdl.com/product/95?type=1&category=5"
+          },
+          {
+            "label": "・京东物流地狼",
+            "href": "https://lang.jdl.com/product/93?type=1&category=5"
+          },
+          {
+            "label": "・京东物流自动分播墙",
+            "href": "https://lang.jdl.com/product/107?type=1&category=6"
+          },
+          {
+            "label": "数智供应链",
+            "href": "javascript:void(0)"
+          },
+          {
+            "label": "・智能园区管理系统",
+            "href": "https://lang.jdl.com/product/108?type=2&category=7"
+          },
+          {
+            "label": "・供应链履约系统",
+            "href": "https://lang.jdl.com/product/99?type=2&category=8"
+          },
+          {
+            "label": "・视觉分析系统(视能方)",
+            "href": "https://lang.jdl.com/product/104?type=2&category=9"
+          },
+          {
+            "label": "・3D SCADA系统",
+            "href": "https://lang.jdl.com/product/103?type=2&category=9"
+          },
+          {
+            "label": "・爱咚移动数据终端",
+            "href": "https://lang.jdl.com/product/111?type=2&category=10"
+          },
+          {
+            "label": "低碳供应链",
+            "href": "javascript:void(0)"
+          },
+          {
+            "label": "・京碳惠SCEMP",
+            "href": "https://lang.jdl.com/product/109?type=3&category=11"
+          },
+          {
+            "label": "物流运力",
+            "href": "https://www.jdl.com/capacity"
+          },
+          {
+            "label": "专线包仓",
+            "href": "https://www.jdl.com/capacity/dedicatedLine"
+          },
+          {
+            "label": "全货机包机",
+            "href": "https://www.jdl.com/capacity/fullCargo"
+          },
+          {
+            "label": "增值服务",
+            "href": "javascript:void(0)"
+          },
+          {
+            "label": "快递",
+            "href": "https://www.jdl.com/express/addValueService"
+          },
+          {
+            "label": "快运",
+            "href": "https://www.jdl.com/freight/addValueService"
+          },
+          {
+            "label": "仓配一体",
+            "href": "https://www.jdl.com/supplyChain/addValueService"
+          },
+          {
+            "label": "大件",
+            "href": "https://www.jdl.com/bulky/addValueService"
+          },
+          {
+            "label": "送仓",
+            "href": "https://www.jdl.com/reachWarehouse/addValueService"
+          },
+          {
+            "label": "冷链",
+            "href": "https://www.jdl.com/coldChain/addValueService"
+          },
+          {
+            "label": "医药",
+            "href": "https://www.jdl.com/medicine/addValueService"
+          },
+          {
+            "label": "京东服务",
+            "href": "https://www.jdl.com/servicePlus"
+          },
+          {
+            "label": "安装服务",
+            "href": "https://www.jdl.com/servicePlus/install"
+          },
+          {
+            "label": "维修服务",
+            "href": "https://www.jdl.com/servicePlus/repair"
+          },
+          {
+            "label": "机器人服务",
+            "href": "https://www.jdl.com/servicePlus/robot/"
+          },
+          {
+            "label": "",
+            "href": "javascript:void(0)"
+          },
+          {
+            "label": "寄快递",
+            "href": "https://www.jdl.com/express"
+          },
+          {
+            "label": "京东特快",
+            "href": "https://www.jdl.com/express/jdFastest"
+          },
+          {
+            "label": "京东标快",
+            "href": "https://www.jdl.com/express/jdStandard"
+          },
+          {
+            "label": "生鲜特快",
+            "href": "https://www.jdl.com/express/freshFastest"
+          },
+          {
+            "label": "生鲜标快",
+            "href": "https://www.jdl.com/express/freshStandard"
+          },
+          {
+            "label": "送同城",
+            "href": "https://www.jdl.com/express/sameCity"
+          },
+          {
+            "label": "增值服务",
+            "href": "https://www.jdl.com/express/addValueService"
+          },
+          {
+            "label": "发重货",
+            "href": "https://www.jdl.com/freight"
+          },
+          {
+            "label": "重货标快",
+            "href": "https://www.jdl.com/freight/fastCargo"
+          },
+          {
+            "label": "整车直达",
+            "href": "https://www.jdl.com/freight/completeVehicle"
+          },
+          {
+            "label": "增值服务",
+            "href": "https://www.jdl.com/freight/addValueService"
+          },
+          {
+            "label": "寄国际",
+            "href": "javascript:void(0)"
+          },
+          {
+            "label": "国际快递",
+            "href": "https://www.jdl.com/crossBorder/internationalC2C"
+          },
+          {
+            "label": "找服务",
+            "href": "https://www.jdl.com/servicePlus"
+          },
+          {
+            "label": "安装服务",
+            "href": "https://www.jdl.com/servicePlus/install"
+          },
+          {
+            "label": "维修服务",
+            "href": "https://www.jdl.com/servicePlus/repair"
+          },
+          {
+            "label": "清洗服务",
+            "href": "https://www.jdl.com/servicePlus/cleaning"
+          }
+        ]
+      },
+      {
+        "label": "解决方案",
+        "box": {
+          "x": null,
+          "y": null,
+          "w": null,
+          "h": null
+        },
+        "tabs": [],
+        "groups": [
+          {
+            "title": "行业解决方案",
+            "items": [
+              {
+                "label": "消费品",
+                "href": "https://www.jdl.com/consumerGoods"
+              },
+              {
+                "label": "3C",
+                "href": "https://www.jdl.com/digital"
+              },
+              {
+                "label": "大家居",
+                "href": "https://www.jdl.com/furnishings"
+              },
+              {
+                "label": "服饰",
+                "href": "https://www.jdl.com/dress"
+              },
+              {
+                "label": "家电",
+                "href": "https://www.jdl.com/homeAppliances"
+              },
+              {
+                "label": "汽车",
+                "href": "https://www.jdl.com/carService"
+              },
+              {
+                "label": "生鲜",
+                "href": "https://www.jdl.com/freshSolution"
+              }
+            ]
+          },
+          {
+            "title": "物流科技",
+            "items": [
+              {
+                "label": "智能仓储",
+                "href": "https://www.jdl.com/technology/intelligentWarehouse"
+              },
+              {
+                "label": "教育产业学院",
+                "href": "https://www.jdl.com/technology/education"
+              },
+              {
+                "label": "智能物流园",
+                "href": "https://www.jdl.com/technology/intelligentPark"
+              },
+              {
+                "label": "数智化供应链",
+                "href": "https://www.jdl.com/technology/digitizedSupplyChain"
+              },
+              {
+                "label": "与图数智地图服务平台",
+                "href": "https://www.jd-ex.com/"
+              }
+            ]
+          },
+          {
+            "title": "成功案例",
+            "items": [
+              {
+                "label": "消费品行业",
+                "href": "https://www.jdl.com/solution/consumerGoods"
+              },
+              {
+                "label": "工业品行业",
+                "href": "https://www.jdl.com/solution/industrialProducts"
+              },
+              {
+                "label": "汽车行业",
+                "href": "https://www.jdl.com/solution/vehicle"
+              },
+              {
+                "label": "大时尚行业",
+                "href": "https://www.jdl.com/solution/bigFashion"
+              },
+              {
+                "label": "家电家居行业",
+                "href": "https://www.jdl.com/solution/furnituredAppliance"
+              }
+            ]
+          },
+          {
+            "title": "最新案例",
+            "items": [
+              {
+                "label": "一周送出一亿只粽子，百年老字号的供应链物流革新",
+                "href": "https://www.jdl.com/news/6134/content02729"
+              },
+              {
+                "label": "冰爽618，京东物流携手八喜实现冷链从成本中心到增长引擎",
+                "href": "https://www.jdl.com/news/6135/content02730"
+              },
+              {
+                "label": "从1件校园白T到年销25亿，打赢服装“质价比”之战",
+                "href": "https://www.jdl.com/news/5746/content02594"
+              }
+            ]
+          }
+        ],
+        "flatLinks": [
+          {
+            "label": "行业解决方案",
+            "href": "javascript:void(0)"
+          },
+          {
+            "label": "消费品",
+            "href": "https://www.jdl.com/consumerGoods"
+          },
+          {
+            "label": "3C",
+            "href": "https://www.jdl.com/digital"
+          },
+          {
+            "label": "大家居",
+            "href": "https://www.jdl.com/furnishings"
+          },
+          {
+            "label": "服饰",
+            "href": "https://www.jdl.com/dress"
+          },
+          {
+            "label": "家电",
+            "href": "https://www.jdl.com/homeAppliances"
+          },
+          {
+            "label": "汽车",
+            "href": "https://www.jdl.com/carService"
+          },
+          {
+            "label": "生鲜",
+            "href": "https://www.jdl.com/freshSolution"
+          },
+          {
+            "label": "物流科技",
+            "href": "javascript:void(0)"
+          },
+          {
+            "label": "智能仓储",
+            "href": "https://www.jdl.com/technology/intelligentWarehouse"
+          },
+          {
+            "label": "教育产业学院",
+            "href": "https://www.jdl.com/technology/education"
+          },
+          {
+            "label": "智能物流园",
+            "href": "https://www.jdl.com/technology/intelligentPark"
+          },
+          {
+            "label": "数智化供应链",
+            "href": "https://www.jdl.com/technology/digitizedSupplyChain"
+          },
+          {
+            "label": "与图数智地图服务平台",
+            "href": "https://www.jd-ex.com/"
+          },
+          {
+            "label": "成功案例",
+            "href": "javascript:void(0)"
+          },
+          {
+            "label": "消费品行业",
+            "href": "https://www.jdl.com/solution/consumerGoods"
+          },
+          {
+            "label": "工业品行业",
+            "href": "https://www.jdl.com/solution/industrialProducts"
+          },
+          {
+            "label": "汽车行业",
+            "href": "https://www.jdl.com/solution/vehicle"
+          },
+          {
+            "label": "大时尚行业",
+            "href": "https://www.jdl.com/solution/bigFashion"
+          },
+          {
+            "label": "家电家居行业",
+            "href": "https://www.jdl.com/solution/furnituredAppliance"
+          },
+          {
+            "label": "最新案例",
+            "href": "javascript:void(0)"
+          },
+          {
+            "label": "一周送出一亿只粽子，百年老字号的供应链物流革新",
+            "href": "https://www.jdl.com/news/6134/content02729"
+          },
+          {
+            "label": "冰爽618，京东物流携手八喜实现冷链从成本中心到增长引擎",
+            "href": "https://www.jdl.com/news/6135/content02730"
+          },
+          {
+            "label": "从1件校园白T到年销25亿，打赢服装“质价比”之战",
+            "href": "https://www.jdl.com/news/5746/content02594"
+          }
+        ]
+      },
+      {
+        "label": "服务支持",
+        "box": {
+          "x": null,
+          "y": null,
+          "w": null,
+          "h": null
+        },
+        "tabs": [],
+        "groups": [
+          {
+            "title": "",
+            "items": []
+          },
+          {
+            "title": "寄件服务",
+            "items": [
+              {
+                "label": "个人寄件",
+                "href": "https://www.jdl.com/send/sendSingleEntry/?isCnet=1&source=gwdhl&jfe_flow_source_pc=f04a0a1"
+              },
+              {
+                "label": "批量下单（寄快递）",
+                "href": "https://www.jdl.com/cnetRoute/batchIndex?source=gwdhl&jfe_flow_source_pc=f04a0a1"
+              },
+              {
+                "label": "批量下单（发重货）",
+                "href": "https://www.jdl.com/route/bulkPlaceorder?source=gwdhl&jfe_flow_source_pc=f04a0a1"
+              },
+              {
+                "label": "批量下单（寄生鲜）",
+                "href": "https://www.jdl.com/fresh/batch?source=gwdhl&jfe_flow_source_pc=f04a0a1"
+              }
+            ]
+          },
+          {
+            "title": "查询服务",
+            "items": [
+              {
+                "label": "运单查询",
+                "href": "https://www.jdl.com/orderSearch"
+              },
+              {
+                "label": "运费时效查询",
+                "href": "https://www.jdl.com/aging-page"
+              },
+              {
+                "label": "网点查询",
+                "href": "https://www.jdl.com/network"
+              },
+              {
+                "label": "服务范围查询",
+                "href": "https://www.jdl.com/serve-range"
+              },
+              {
+                "label": "通关服务",
+                "href": "https://www.jdl.com/tools/uploadMaterial/"
+              },
+              {
+                "label": "送货入仓地址查询",
+                "href": "https://www.jdl.com/serve-warehouse"
+              },
+              {
+                "label": "打木架城市查询",
+                "href": "https://www.jdl.com/tools/woodSearch"
+              }
+            ]
+          },
+          {
+            "title": "商家服务",
+            "items": [
+              {
+                "label": "电子合同签约",
+                "href": "https://contract.jdl.com/platform"
+              },
+              {
+                "label": "商家工作台",
+                "href": "https://wl.jdl.com"
+              },
+              {
+                "label": "开放平台",
+                "href": "https://cloud.jdl.com"
+              },
+              {
+                "label": "开通月结",
+                "href": "https://www.jdl.com/cms/?projectCode=jdwl&resCode=pos00045&contentType=2&needContentInfo=1"
+              },
+              {
+                "label": "物流合作",
+                "href": "https://www.jdl.com/cms/?projectCode=jdwl&resCode=pos00034&contentType=2&needContentInfo=1"
+              }
+            ]
+          },
+          {
+            "title": "更多",
+            "items": [
+              {
+                "label": "服务细则",
+                "href": "https://www.jdl.com/serviceDetails"
+              },
+              {
+                "label": "京东服务（维修 安装）",
+                "href": "https://www.jdl.com/cms/?projectCode=jdwl&resCode=pos00044&contentType=2&needContentInfo=1"
+              },
+              {
+                "label": "商家优惠通道",
+                "href": "https://www.jdl.com/cms/?projectCode=jdwl&resCode=pos00034&contentType=2&needContentInfo=1"
+              }
+            ]
+          }
+        ],
+        "flatLinks": [
+          {
+            "label": "",
+            "href": "javascript:void(0)"
+          },
+          {
+            "label": "寄件服务",
+            "href": "javascript:void(0)"
+          },
+          {
+            "label": "个人寄件",
+            "href": "https://www.jdl.com/send/sendSingleEntry/?isCnet=1&source=gwdhl&jfe_flow_source_pc=f04a0a1"
+          },
+          {
+            "label": "批量下单（寄快递）",
+            "href": "https://www.jdl.com/cnetRoute/batchIndex?source=gwdhl&jfe_flow_source_pc=f04a0a1"
+          },
+          {
+            "label": "批量下单（发重货）",
+            "href": "https://www.jdl.com/route/bulkPlaceorder?source=gwdhl&jfe_flow_source_pc=f04a0a1"
+          },
+          {
+            "label": "批量下单（寄生鲜）",
+            "href": "https://www.jdl.com/fresh/batch?source=gwdhl&jfe_flow_source_pc=f04a0a1"
+          },
+          {
+            "label": "查询服务",
+            "href": "javascript:void(0)"
+          },
+          {
+            "label": "运单查询",
+            "href": "https://www.jdl.com/orderSearch"
+          },
+          {
+            "label": "运费时效查询",
+            "href": "https://www.jdl.com/aging-page"
+          },
+          {
+            "label": "网点查询",
+            "href": "https://www.jdl.com/network"
+          },
+          {
+            "label": "服务范围查询",
+            "href": "https://www.jdl.com/serve-range"
+          },
+          {
+            "label": "通关服务",
+            "href": "https://www.jdl.com/tools/uploadMaterial/"
+          },
+          {
+            "label": "送货入仓地址查询",
+            "href": "https://www.jdl.com/serve-warehouse"
+          },
+          {
+            "label": "打木架城市查询",
+            "href": "https://www.jdl.com/tools/woodSearch"
+          },
+          {
+            "label": "商家服务",
+            "href": "javascript:void(0)"
+          },
+          {
+            "label": "电子合同签约",
+            "href": "https://contract.jdl.com/platform"
+          },
+          {
+            "label": "商家工作台",
+            "href": "https://wl.jdl.com"
+          },
+          {
+            "label": "开放平台",
+            "href": "https://cloud.jdl.com"
+          },
+          {
+            "label": "开通月结",
+            "href": "https://www.jdl.com/cms/?projectCode=jdwl&resCode=pos00045&contentType=2&needContentInfo=1"
+          },
+          {
+            "label": "物流合作",
+            "href": "https://www.jdl.com/cms/?projectCode=jdwl&resCode=pos00034&contentType=2&needContentInfo=1"
+          },
+          {
+            "label": "更多",
+            "href": "javascript:void(0)"
+          },
+          {
+            "label": "服务细则",
+            "href": "https://www.jdl.com/serviceDetails"
+          },
+          {
+            "label": "京东服务（维修 安装）",
+            "href": "https://www.jdl.com/cms/?projectCode=jdwl&resCode=pos00044&contentType=2&needContentInfo=1"
+          },
+          {
+            "label": "商家优惠通道",
+            "href": "https://www.jdl.com/cms/?projectCode=jdwl&resCode=pos00034&contentType=2&needContentInfo=1"
+          }
+        ]
+      },
+      {
+        "label": "可持续发展",
+        "box": {
+          "x": null,
+          "y": null,
+          "w": null,
+          "h": null
+        },
+        "tabs": [],
+        "groups": [
+          {
+            "title": "ESG",
+            "items": [
+              {
+                "label": "我们的承诺",
+                "href": "/ourPromise"
+              },
+              {
+                "label": "我们的行动 - 环境",
+                "href": "/ourActionEnvironment"
+              },
+              {
+                "label": "我们的行动 - 社会",
+                "href": "/ourActionSociety"
+              },
+              {
+                "label": "我们的行动 - 治理",
+                "href": "/ourActionGovernance"
+              }
+            ]
+          },
+          {
+            "title": "青流计划",
+            "items": []
+          },
+          {
+            "title": "环保资讯",
+            "items": []
+          },
+          {
+            "title": "合作咨询",
+            "items": []
+          }
+        ],
+        "flatLinks": [
+          {
+            "label": "ESG",
+            "href": "https://www.jdl.com/esg"
+          },
+          {
+            "label": "我们的承诺",
+            "href": "/ourPromise"
+          },
+          {
+            "label": "我们的行动 - 环境",
+            "href": "/ourActionEnvironment"
+          },
+          {
+            "label": "我们的行动 - 社会",
+            "href": "/ourActionSociety"
+          },
+          {
+            "label": "我们的行动 - 治理",
+            "href": "/ourActionGovernance"
+          },
+          {
+            "label": "青流计划",
+            "href": "https://www.jdl.com/green"
+          },
+          {
+            "label": "环保资讯",
+            "href": "https://www.jdl.com/greenNews"
+          },
+          {
+            "label": "合作咨询",
+            "href": "https://getwuce.jdl.com/#/diyForm?formCode=BD3187402377390195328&channelL1Code=l1-ch8&channelCode=wucech87210"
+          }
+        ]
+      },
+      {
+        "label": "关于京东物流",
+        "box": {
+          "x": null,
+          "y": null,
+          "w": null,
+          "h": null
+        },
+        "tabs": [],
+        "groups": [
+          {
+            "title": "企业介绍",
+            "items": []
+          },
+          {
+            "title": "新闻中心",
+            "items": []
+          },
+          {
+            "title": "视频中心",
+            "items": []
+          },
+          {
+            "title": "投资者关系",
+            "items": []
+          },
+          {
+            "title": "联系我们",
+            "items": []
+          },
+          {
+            "title": "招贤纳士",
+            "items": []
+          }
+        ],
+        "flatLinks": [
+          {
+            "label": "企业介绍",
+            "href": "https://www.jdl.com/profile"
+          },
+          {
+            "label": "新闻中心",
+            "href": "https://www.jdl.com/news/list"
+          },
+          {
+            "label": "视频中心",
+            "href": "https://www.jdl.com/videos"
+          },
+          {
+            "label": "投资者关系",
+            "href": "https://ir.jdl.com/"
+          },
+          {
+            "label": "联系我们",
+            "href": "https://www.jdl.com/contactUs"
+          },
+          {
+            "label": "招贤纳士",
+            "href": "https://zhaopin.jd.com/home"
+          }
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "index": 0,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/home/logo-s.png",
+      "alt": "京东物流官网",
+      "natural": {
+        "w": 347,
+        "h": 58
+      },
+      "display": {
+        "x": 103,
+        "y": 52,
+        "w": 161,
+        "h": 27
+      },
+      "context": ""
+    },
+    {
+      "index": 1,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/menu/icon-menu.png",
+      "alt": "",
+      "natural": {
+        "w": 48,
+        "h": 48
+      },
+      "display": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "context": "简 简体中文 繁體中文 English"
+    },
+    {
+      "index": 2,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/menu/icon-user.png",
+      "alt": "",
+      "natural": {
+        "w": 48,
+        "h": 48
+      },
+      "display": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "context": ""
+    },
+    {
+      "index": 3,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/menu/icon-arrow-bottom.png",
+      "alt": "",
+      "natural": {
+        "w": 32,
+        "h": 32
+      },
+      "display": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "context": "企业服务"
+    },
+    {
+      "index": 4,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/menu/icon-express.svg",
+      "alt": "",
+      "natural": {
+        "w": 0,
+        "h": 0
+      },
+      "display": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "context": "物流服务"
+    },
+    {
+      "index": 5,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/menu/icon-chain.svg",
+      "alt": "",
+      "natural": {
+        "w": 0,
+        "h": 0
+      },
+      "display": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "context": "增值服务"
+    },
+    {
+      "index": 6,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/menu/icon-service.svg",
+      "alt": "",
+      "natural": {
+        "w": 24,
+        "h": 24
+      },
+      "display": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "context": "京东服务"
+    },
+    {
+      "index": 7,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/menu/icon-transport.svg",
+      "alt": "",
+      "natural": {
+        "w": 0,
+        "h": 0
+      },
+      "display": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "context": "发重货"
+    },
+    {
+      "index": 8,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/menu/icon-inter.svg",
+      "alt": "",
+      "natural": {
+        "w": 0,
+        "h": 0
+      },
+      "display": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "context": "寄国际"
+    },
+    {
+      "index": 9,
+      "kind": "img",
+      "src": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1791613642202.jpg",
+      "alt": "",
+      "natural": {
+        "w": 0,
+        "h": 0
+      },
+      "display": {
+        "x": 1440,
+        "y": 100,
+        "w": 1440,
+        "h": 446
+      },
+      "context": ""
+    },
+    {
+      "index": 10,
+      "kind": "img",
+      "src": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1789093630895.jpeg",
+      "alt": "",
+      "natural": {
+        "w": 0,
+        "h": 0
+      },
+      "display": {
+        "x": 2880,
+        "y": 100,
+        "w": 1440,
+        "h": 446
+      },
+      "context": ""
+    },
+    {
+      "index": 11,
+      "kind": "img",
+      "src": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1789720893747.jpeg",
+      "alt": "",
+      "natural": {
+        "w": 0,
+        "h": 0
+      },
+      "display": {
+        "x": 4320,
+        "y": 100,
+        "w": 1440,
+        "h": 446
+      },
+      "context": ""
+    },
+    {
+      "index": 12,
+      "kind": "img",
+      "src": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1767858541029.jpg",
+      "alt": "",
+      "natural": {
+        "w": 0,
+        "h": 0
+      },
+      "display": {
+        "x": 5760,
+        "y": 100,
+        "w": 1440,
+        "h": 446
+      },
+      "context": ""
+    },
+    {
+      "index": 13,
+      "kind": "img",
+      "src": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1789093547877.jpeg",
+      "alt": "",
+      "natural": {
+        "w": 0,
+        "h": 0
+      },
+      "display": {
+        "x": 7200,
+        "y": 100,
+        "w": 1440,
+        "h": 446
+      },
+      "context": ""
+    },
+    {
+      "index": 14,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/icon-search.png",
+      "alt": "",
+      "natural": {
+        "w": 48,
+        "h": 50
+      },
+      "display": {
+        "x": 255,
+        "y": 530,
+        "w": 17,
+        "h": 17
+      },
+      "context": ""
+    },
+    {
+      "index": 15,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/express.png",
+      "alt": "",
+      "natural": {
+        "w": 216,
+        "h": 216
+      },
+      "display": {
+        "x": 275,
+        "y": 700,
+        "w": 104,
+        "h": 104
+      },
+      "context": "快递快运服务"
+    },
+    {
+      "index": 16,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/supplyChain.png",
+      "alt": "",
+      "natural": {
+        "w": 216,
+        "h": 216
+      },
+      "display": {
+        "x": 498,
+        "y": 700,
+        "w": 52,
+        "h": 52
+      },
+      "context": "仓配一体服务"
+    },
+    {
+      "index": 17,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/bulky.png",
+      "alt": "",
+      "natural": {
+        "w": 216,
+        "h": 216
+      },
+      "display": {
+        "x": 694,
+        "y": 700,
+        "w": 52,
+        "h": 52
+      },
+      "context": "大件服务"
+    },
+    {
+      "index": 18,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/warehouse.png",
+      "alt": "",
+      "natural": {
+        "w": 216,
+        "h": 216
+      },
+      "display": {
+        "x": 891,
+        "y": 700,
+        "w": 52,
+        "h": 52
+      },
+      "context": "送仓服务"
+    },
+    {
+      "index": 19,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/coldChain.png",
+      "alt": "",
+      "natural": {
+        "w": 216,
+        "h": 216
+      },
+      "display": {
+        "x": 1088,
+        "y": 700,
+        "w": 52,
+        "h": 52
+      },
+      "context": "冷链服务"
+    },
+    {
+      "index": 20,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/medicine.png",
+      "alt": "",
+      "natural": {
+        "w": 216,
+        "h": 216
+      },
+      "display": {
+        "x": 1284,
+        "y": 700,
+        "w": 52,
+        "h": 52
+      },
+      "context": "医药服务"
+    },
+    {
+      "index": 21,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/service%2B.png",
+      "alt": "",
+      "natural": {
+        "w": 216,
+        "h": 216
+      },
+      "display": {
+        "x": 1481,
+        "y": 700,
+        "w": 52,
+        "h": 52
+      },
+      "context": "京东服务"
+    },
+    {
+      "index": 22,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/capacity.png",
+      "alt": "",
+      "natural": {
+        "w": 216,
+        "h": 216
+      },
+      "display": {
+        "x": 1677,
+        "y": 700,
+        "w": 52,
+        "h": 52
+      },
+      "context": "运力服务"
+    },
+    {
+      "index": 23,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/inter.png",
+      "alt": "",
+      "natural": {
+        "w": 216,
+        "h": 216
+      },
+      "display": {
+        "x": 1874,
+        "y": 700,
+        "w": 52,
+        "h": 52
+      },
+      "context": "国际物流"
+    },
+    {
+      "index": 24,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/technology.png",
+      "alt": "",
+      "natural": {
+        "w": 216,
+        "h": 216
+      },
+      "display": {
+        "x": 2070,
+        "y": 700,
+        "w": 52,
+        "h": 52
+      },
+      "context": "物流科技"
+    },
+    {
+      "index": 25,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v4/home/service/express.png",
+      "alt": "",
+      "natural": {
+        "w": 1562,
+        "h": 1002
+      },
+      "display": {
+        "x": 698,
+        "y": 796,
+        "w": 562,
+        "h": 360
+      },
+      "context": "快递快运服务 向企业及个人客户提供安全可靠、时效领先、专业贴心的快递及快运服务，以及在此基础上的多种增值服务 产品服务 快递 京东特快 京东标快 增值服务 查看"
+    },
+    {
+      "index": 26,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/solution/icon-consumer.png",
+      "alt": "",
+      "natural": {
+        "w": 200,
+        "h": 200
+      },
+      "display": {
+        "x": 275,
+        "y": 1490,
+        "w": 72,
+        "h": 72
+      },
+      "context": "了解更多"
+    },
+    {
+      "index": 27,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/solution/icon-dress.png",
+      "alt": "",
+      "natural": {
+        "w": 200,
+        "h": 200
+      },
+      "display": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "context": "了解更多"
+    },
+    {
+      "index": 28,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/solution/icon-homeAppliances.png",
+      "alt": "",
+      "natural": {
+        "w": 200,
+        "h": 200
+      },
+      "display": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "context": "了解更多"
+    },
+    {
+      "index": 29,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/solution/icon-digital.png",
+      "alt": "",
+      "natural": {
+        "w": 200,
+        "h": 200
+      },
+      "display": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "context": "了解更多"
+    },
+    {
+      "index": 30,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/solution/icon-car.png",
+      "alt": "",
+      "natural": {
+        "w": 200,
+        "h": 200
+      },
+      "display": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "context": "了解更多"
+    },
+    {
+      "index": 31,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/solution/icon-fresh.png",
+      "alt": "",
+      "natural": {
+        "w": 200,
+        "h": 200
+      },
+      "display": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "context": "了解更多"
+    },
+    {
+      "index": 32,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/network/icon-earth.png",
+      "alt": "",
+      "natural": {
+        "w": 72,
+        "h": 72
+      },
+      "display": {
+        "x": 759,
+        "y": 2062,
+        "w": 26,
+        "h": 26
+      },
+      "context": "全网覆盖"
+    },
+    {
+      "index": 33,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/network/icon-menu.png",
+      "alt": "",
+      "natural": {
+        "w": 74,
+        "h": 72
+      },
+      "display": {
+        "x": 887,
+        "y": 2062,
+        "w": 26,
+        "h": 26
+      },
+      "context": "数实融合"
+    },
+    {
+      "index": 34,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/network/icon-chain.png",
+      "alt": "",
+      "natural": {
+        "w": 74,
+        "h": 72
+      },
+      "display": {
+        "x": 1014,
+        "y": 2062,
+        "w": 26,
+        "h": 26
+      },
+      "context": "全链共生"
+    },
+    {
+      "index": 35,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/network/icon-time.png",
+      "alt": "",
+      "natural": {
+        "w": 74,
+        "h": 72
+      },
+      "display": {
+        "x": 1142,
+        "y": 2062,
+        "w": 26,
+        "h": 26
+      },
+      "context": "7X24小时服务"
+    },
+    {
+      "index": 36,
+      "kind": "img",
+      "src": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1778584332412.jpg",
+      "alt": "一图看懂！京东物流Q1收入同比增长29% 创上市以来一季度最佳利润表现",
+      "natural": {
+        "w": 1080,
+        "h": 1347
+      },
+      "display": {
+        "x": 229,
+        "y": 2303,
+        "w": 194,
+        "h": 259
+      },
+      "context": "新闻 2026.05.12 查看详情 一图看懂！京东物流Q1收入同比增长29% 创上市以来一季度最佳利润表现"
+    },
+    {
+      "index": 37,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/code/tel.png",
+      "alt": "tel",
+      "natural": {
+        "w": 64,
+        "h": 64
+      },
+      "display": {
+        "x": 229,
+        "y": 2733,
+        "w": 24,
+        "h": 24
+      },
+      "context": "950616"
+    },
+    {
+      "index": 38,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/code/jdl-express-code.jpeg",
+      "alt": "",
+      "natural": {
+        "w": 284,
+        "h": 284
+      },
+      "display": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "context": "京东快递"
+    },
+    {
+      "index": 39,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/code/jdl-code.jpeg",
+      "alt": "",
+      "natural": {
+        "w": 284,
+        "h": 284
+      },
+      "display": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "context": "京东物流"
+    },
+    {
+      "index": 40,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/code/jdl-express-mini.jpeg",
+      "alt": "",
+      "natural": {
+        "w": 284,
+        "h": 284
+      },
+      "display": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "context": "京东快递"
+    },
+    {
+      "index": 41,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/home/footer-weixing-260427.png",
+      "alt": "",
+      "natural": {
+        "w": 0,
+        "h": 0
+      },
+      "display": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "context": "企业微信"
+    },
+    {
+      "index": 42,
+      "kind": "img",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/images/feedback/qiwei-float-260728.png",
+      "alt": "企业微信二维码",
+      "natural": {
+        "w": 396,
+        "h": 396
+      },
+      "display": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "context": ""
+    },
+    {
+      "index": 43,
+      "kind": "bg",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/nav/nav-bg-1.png",
+      "alt": "",
+      "display": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "context": "企业服务 物流服务 快递服务 快运服务 仓配一体 大件服务 送仓服务 冷链服务 医药服务 国际服务 物流科技 物流机器人"
+    },
+    {
+      "index": 44,
+      "kind": "bg",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/second-top-bg.png",
+      "alt": "",
+      "display": {
+        "x": 562,
+        "y": 483,
+        "w": 649,
+        "h": 115
+      },
+      "context": "寄多件更方便 我要寄件 运费&时效查询 服务范围 网点查询"
+    },
+    {
+      "index": 45,
+      "kind": "bg",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/send.png",
+      "alt": "",
+      "display": {
+        "x": 611,
+        "y": 499,
+        "w": 63,
+        "h": 63
+      },
+      "context": ""
+    },
+    {
+      "index": 46,
+      "kind": "bg",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/aging-page.png",
+      "alt": "",
+      "display": {
+        "x": 773,
+        "y": 499,
+        "w": 63,
+        "h": 63
+      },
+      "context": ""
+    },
+    {
+      "index": 47,
+      "kind": "bg",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/serve-range.png",
+      "alt": "",
+      "display": {
+        "x": 936,
+        "y": 499,
+        "w": 63,
+        "h": 63
+      },
+      "context": ""
+    },
+    {
+      "index": 48,
+      "kind": "bg",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/netwwork.png",
+      "alt": "",
+      "display": {
+        "x": 1098,
+        "y": 499,
+        "w": 63,
+        "h": 63
+      },
+      "context": ""
+    },
+    {
+      "index": 49,
+      "kind": "bg",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/service/service-active.png",
+      "alt": "",
+      "display": {
+        "x": 248,
+        "y": 759,
+        "w": 158,
+        "h": 65
+      },
+      "context": ""
+    },
+    {
+      "index": 50,
+      "kind": "bg",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/service/icon-group.png",
+      "alt": "",
+      "display": {
+        "x": 287,
+        "y": 980,
+        "w": 19,
+        "h": 19
+      },
+      "context": ""
+    },
+    {
+      "index": 51,
+      "kind": "bg",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/solution/consumer.jpeg",
+      "alt": "",
+      "display": {
+        "x": 0,
+        "y": 1185,
+        "w": 1440,
+        "h": 504
+      },
+      "context": "热门行业解决方案 京东物流完善的服务体系为企业保驾护航 快消 为消费品行业客户提供数字化、可视化、智能化的一体解决方案，"
+    },
+    {
+      "index": 52,
+      "kind": "bg",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/network/network-bg2.png",
+      "alt": "",
+      "display": {
+        "x": 0,
+        "y": 1689,
+        "w": 1440,
+        "h": 515
+      },
+      "context": "物流网络 遍布全球的基础设施为物流提供快速稳定、智能可靠的服务 0 1 2 3 4 5 6 7 8 9 大网络 仓储网络"
+    },
+    {
+      "index": 53,
+      "kind": "bg",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/network/network-bg.jpg",
+      "alt": "",
+      "display": {
+        "x": 0,
+        "y": 1689,
+        "w": 1440,
+        "h": 515
+      },
+      "context": "物流网络 遍布全球的基础设施为物流提供快速稳定、智能可靠的服务 0 1 2 3 4 5 6 7 8 9 大网络 仓储网络"
+    },
+    {
+      "index": 54,
+      "kind": "bg",
+      "src": "https://jfe.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/express/global_express_pc/img/menu/expressage-back.png",
+      "alt": "",
+      "display": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "context": ""
+    },
+    {
+      "index": 55,
+      "kind": "bg",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/jfe/heavy-back-v1.png",
+      "alt": "",
+      "display": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "context": ""
+    },
+    {
+      "index": 56,
+      "kind": "bg",
+      "src": "https://jfe.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/express/global_express_pc/img/menu/fresh-back.png",
+      "alt": "",
+      "display": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "context": ""
+    },
+    {
+      "index": 57,
+      "kind": "bg",
+      "src": "https://jfe.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/express/global_express_pc/img/menu/hk-back.png",
+      "alt": "",
+      "display": {
+        "x": 0,
+        "y": 0,
+        "w": 0,
+        "h": 0
+      },
+      "context": ""
+    },
+    {
+      "index": 58,
+      "kind": "bg",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/sidebar/enterprise-WeChat-action.webp",
+      "alt": "",
+      "display": {
+        "x": 1374,
+        "y": 646,
+        "w": 39,
+        "h": 39
+      },
+      "context": ""
+    },
+    {
+      "index": 59,
+      "kind": "bg",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/sidebar/icon-chat.png",
+      "alt": "",
+      "display": {
+        "x": 1374,
+        "y": 696,
+        "w": 39,
+        "h": 39
+      },
+      "context": ""
+    },
+    {
+      "index": 60,
+      "kind": "bg",
+      "src": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/sidebar/icon-contact.png",
+      "alt": "",
+      "display": {
+        "x": 1374,
+        "y": 747,
+        "w": 39,
+        "h": 39
+      },
+      "context": ""
+    }
+  ],
+  "interactions": {
+    "heroSlides": [
+      {
+        "index": 0,
+        "text": "助力企业降本增效 一体化供应链解决方案专家",
+        "images": [],
+        "class": "swiper-slide"
+      },
+      {
+        "index": 1,
+        "text": "",
+        "images": [
+          null
+        ],
+        "class": "swiper-slide"
+      },
+      {
+        "index": 2,
+        "text": "",
+        "images": [
+          null
+        ],
+        "class": "swiper-slide swiper-slide-prev"
+      },
+      {
+        "index": 3,
+        "text": "",
+        "images": [
+          null
+        ],
+        "class": "swiper-slide swiper-slide-active"
+      },
+      {
+        "index": 4,
+        "text": "",
+        "images": [
+          null
+        ],
+        "class": "swiper-slide swiper-slide-next"
+      },
+      {
+        "index": 5,
+        "text": "",
+        "images": [
+          null
+        ],
+        "class": "swiper-slide"
+      }
+    ],
+    "serviceCycles": [
+      {
+        "text": "面向丰富场景的物流服务 快递快运服务 仓配一体服务 大件服务 送仓服务 冷链服务 医药服务 京东服务 运力服务 国际物流 物流科技 大件服务 面向家电、家居、电动车、健身器材行业，为客户提供全渠道正、逆向全链路一体化的仓&配供应链服务。 产品服务 大件商务仓 大件备件仓 更多 立即咨询",
+        "images": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/bulky.png",
+          ""
+        ],
+        "active": [
+          "大件服务"
+        ]
+      },
+      {
+        "text": "面向丰富场景的物流服务 快递快运服务 仓配一体服务 大件服务 送仓服务 冷链服务 医药服务 京东服务 运力服务 国际物流 物流科技 大件服务 面向家电、家居、电动车、健身器材行业，为客户提供全渠道正、逆向全链路一体化的仓&配供应链服务。 产品服务 大件商务仓 大件备件仓 更多 立即咨询",
+        "images": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/bulky.png",
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/service/bulky.png"
+        ],
+        "active": [
+          "大件服务"
+        ]
+      },
+      {
+        "text": "面向丰富场景的物流服务 快递快运服务 仓配一体服务 大件服务 送仓服务 冷链服务 医药服务 京东服务 运力服务 国际物流 物流科技 大件服务 面向家电、家居、电动车、健身器材行业，为客户提供全渠道正、逆向全链路一体化的仓&配供应链服务。 产品服务 大件商务仓 大件备件仓 更多 立即咨询",
+        "images": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/bulky.png",
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/service/bulky.png"
+        ],
+        "active": [
+          "大件服务"
+        ]
+      },
+      {
+        "text": "面向丰富场景的物流服务 快递快运服务 仓配一体服务 大件服务 送仓服务 冷链服务 医药服务 京东服务 运力服务 国际物流 物流科技 大件服务 面向家电、家居、电动车、健身器材行业，为客户提供全渠道正、逆向全链路一体化的仓&配供应链服务。 产品服务 大件商务仓 大件备件仓 更多 立即咨询",
+        "images": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/bulky.png",
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/service/bulky.png"
+        ],
+        "active": [
+          "大件服务"
+        ]
+      },
+      {
+        "text": "面向丰富场景的物流服务 快递快运服务 仓配一体服务 大件服务 送仓服务 冷链服务 医药服务 京东服务 运力服务 国际物流 物流科技 大件服务 面向家电、家居、电动车、健身器材行业，为客户提供全渠道正、逆向全链路一体化的仓&配供应链服务。 产品服务 大件商务仓 大件备件仓 更多 立即咨询",
+        "images": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/bulky.png",
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/service/bulky.png"
+        ],
+        "active": [
+          "大件服务"
+        ]
+      },
+      {
+        "text": "面向丰富场景的物流服务 快递快运服务 仓配一体服务 大件服务 送仓服务 冷链服务 医药服务 京东服务 运力服务 国际物流 物流科技 大件服务 面向家电、家居、电动车、健身器材行业，为客户提供全渠道正、逆向全链路一体化的仓&配供应链服务。 产品服务 大件商务仓 大件备件仓 更多 立即咨询",
+        "images": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/bulky.png",
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/service/bulky.png"
+        ],
+        "active": [
+          "大件服务"
+        ]
+      },
+      {
+        "text": "面向丰富场景的物流服务 快递快运服务 仓配一体服务 大件服务 送仓服务 冷链服务 医药服务 京东服务 运力服务 国际物流 物流科技 大件服务 面向家电、家居、电动车、健身器材行业，为客户提供全渠道正、逆向全链路一体化的仓&配供应链服务。 产品服务 大件商务仓 大件备件仓 更多 立即咨询",
+        "images": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/bulky.png",
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/service/bulky.png"
+        ],
+        "active": [
+          "大件服务"
+        ]
+      },
+      {
+        "text": "面向丰富场景的物流服务 快递快运服务 仓配一体服务 大件服务 送仓服务 冷链服务 医药服务 京东服务 运力服务 国际物流 物流科技 大件服务 面向家电、家居、电动车、健身器材行业，为客户提供全渠道正、逆向全链路一体化的仓&配供应链服务。 产品服务 大件商务仓 大件备件仓 更多 立即咨询",
+        "images": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/bulky.png",
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/service/bulky.png"
+        ],
+        "active": [
+          "大件服务"
+        ]
+      },
+      {
+        "text": "面向丰富场景的物流服务 快递快运服务 仓配一体服务 大件服务 送仓服务 冷链服务 医药服务 京东服务 运力服务 国际物流 物流科技 大件服务 面向家电、家居、电动车、健身器材行业，为客户提供全渠道正、逆向全链路一体化的仓&配供应链服务。 产品服务 大件商务仓 大件备件仓 更多 立即咨询",
+        "images": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/bulky.png",
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/service/bulky.png"
+        ],
+        "active": [
+          "大件服务"
+        ]
+      },
+      {
+        "text": "面向丰富场景的物流服务 快递快运服务 仓配一体服务 大件服务 送仓服务 冷链服务 医药服务 京东服务 运力服务 国际物流 物流科技 大件服务 面向家电、家居、电动车、健身器材行业，为客户提供全渠道正、逆向全链路一体化的仓&配供应链服务。 产品服务 大件商务仓 大件备件仓 更多 立即咨询",
+        "images": [
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/bulky.png",
+          "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/service/bulky.png"
+        ],
+        "active": [
+          "大件服务"
+        ]
+      }
+    ],
+    "industryTabs": [
+      {
+        "text": "热门行业解决方案 京东物流完善的服务体系为企业保驾护航 快消 为消费品行业客户提供数字化、可视化、智能化的一体解决方案，向客户提供全渠道 E2E 服务，实现供应链升级 多渠道多场景的供应链服务能力 广泛的物流网络覆盖能力 了解更多 服装 家电 3C 汽车 生鲜",
+        "background": "url(\"https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/solution/consumer.jpeg\")",
+        "activeTab": []
+      },
+      {
+        "text": "热门行业解决方案 京东物流完善的服务体系为企业保驾护航 快消 为消费品行业客户提供数字化、可视化、智能化的一体解决方案，向客户提供全渠道 E2E 服务，实现供应链升级 多渠道多场景的供应链服务能力 广泛的物流网络覆盖能力 了解更多 服装 家电 3C 汽车 生鲜",
+        "background": "url(\"https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/solution/consumer.jpeg\")",
+        "activeTab": []
+      },
+      {
+        "text": "热门行业解决方案 京东物流完善的服务体系为企业保驾护航 快消 为消费品行业客户提供数字化、可视化、智能化的一体解决方案，向客户提供全渠道 E2E 服务，实现供应链升级 多渠道多场景的供应链服务能力 广泛的物流网络覆盖能力 了解更多 服装 家电 3C 汽车 生鲜",
+        "background": "url(\"https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/solution/consumer.jpeg\")",
+        "activeTab": []
+      },
+      {
+        "text": "热门行业解决方案 京东物流完善的服务体系为企业保驾护航 快消 为消费品行业客户提供数字化、可视化、智能化的一体解决方案，向客户提供全渠道 E2E 服务，实现供应链升级 多渠道多场景的供应链服务能力 广泛的物流网络覆盖能力 了解更多 服装 家电 3C 汽车 生鲜",
+        "background": "url(\"https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/solution/consumer.jpeg\")",
+        "activeTab": []
+      },
+      {
+        "text": "热门行业解决方案 京东物流完善的服务体系为企业保驾护航 快消 为消费品行业客户提供数字化、可视化、智能化的一体解决方案，向客户提供全渠道 E2E 服务，实现供应链升级 多渠道多场景的供应链服务能力 广泛的物流网络覆盖能力 了解更多 服装 家电 3C 汽车 生鲜",
+        "background": "url(\"https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/solution/consumer.jpeg\")",
+        "activeTab": []
+      },
+      {
+        "text": "热门行业解决方案 京东物流完善的服务体系为企业保驾护航 快消 为消费品行业客户提供数字化、可视化、智能化的一体解决方案，向客户提供全渠道 E2E 服务，实现供应链升级 多渠道多场景的供应链服务能力 广泛的物流网络覆盖能力 了解更多 服装 家电 3C 汽车 生鲜",
+        "background": "url(\"https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/solution/consumer.jpeg\")",
+        "activeTab": []
+      }
+    ]
+  }
+}

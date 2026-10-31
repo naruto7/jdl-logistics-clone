@@ -6,7 +6,7 @@
  * src/assets 下的文件编译期登记成「逻辑名 → 带 hash 且带 base 前缀的 URL」，
  * 组件只写逻辑名，资源路径的复杂度收敛在这一层。
  */
-const modules = import.meta.glob<string>('../assets/**/*.{png,jpg,jpeg,webp,svg,gif,avif}', {
+const modules = import.meta.glob<string>('../assets/**/*.{png,jpg,jpeg,webp,svg,gif,avif,mp4,webm}', {
   eager: true,
   query: '?url',
   import: 'default',

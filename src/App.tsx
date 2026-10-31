@@ -1,5 +1,6 @@
 import type { ReactElement } from 'react';
 import { Footer } from './layout/Footer';
+import { FloatingSidebar } from './layout/FloatingSidebar';
 import { Header } from './layout/Header';
 import { HomePage } from './pages/HomePage';
 import { AboutPage } from './pages/AboutPage';
@@ -29,6 +30,7 @@ export function App({ page }: { page: PageKey }) {
       <main id="main" className="flex-1">
         <Page />
       </main>
+      <FloatingSidebar />
       <Footer />
     </div>
   );

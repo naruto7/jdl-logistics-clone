@@ -1,0 +1,372 @@
+[
+  {
+    "url": "https://jdl-carbon.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/fonts/JDLangzhengTi-Regular.TTF",
+    "target": "fonts/JDLangZhengTi-400-0.ttf",
+    "note": "品牌字体 JDLangZhengTi 400"
+  },
+  {
+    "url": "https://jdl-carbon.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/fonts/JDZH_Regular.ttf",
+    "target": "fonts/JDZHT-400-0.ttf",
+    "note": "品牌字体 JDZHT 400"
+  },
+  {
+    "url": "https://jdl-carbon.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/fonts/Roboto-Bold.ttf",
+    "target": "fonts/Roboto-400-0.ttf",
+    "note": "品牌字体 Roboto 400"
+  },
+  {
+    "url": "https://jdl-carbon.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/fonts/FZLTDHK.woff2",
+    "target": "fonts/FZLTDHK-400-0.woff2",
+    "note": "品牌字体 FZLTDHK 400"
+  },
+  {
+    "url": "https://jdl-carbon.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/fonts/FZLTDHK.woff",
+    "target": "fonts/FZLTDHK-400-1.woff",
+    "note": "品牌字体 FZLTDHK 400"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/home/logo-s.png",
+    "target": "brand/logo.png",
+    "note": "顶部 logo（JDL 京东物流）"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/menu/icon-menu.png",
+    "target": "ui/icon-menu.png",
+    "note": "导航图标：菜单"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/menu/icon-user.png",
+    "target": "ui/icon-user.png",
+    "note": "导航图标：用户/登录"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/menu/icon-arrow-bottom.png",
+    "target": "ui/icon-arrow-bottom.png",
+    "note": "导航下拉箭头"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/menu/icon-express.svg",
+    "target": "ui/icon-express.svg",
+    "note": "菜单图标：物流服务"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/menu/icon-chain.svg",
+    "target": "ui/icon-chain.svg",
+    "note": "菜单图标：增值服务"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/menu/icon-service.svg",
+    "target": "ui/icon-service.svg",
+    "note": "菜单图标：京东服务"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/menu/icon-transport.svg",
+    "target": "ui/icon-transport.svg",
+    "note": "菜单图标：发重货"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/menu/icon-inter.svg",
+    "target": "ui/icon-inter.svg",
+    "note": "菜单图标：寄国际"
+  },
+  {
+    "url": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1791613642202.jpg",
+    "target": "banner/banner-01.jpg",
+    "note": "首屏轮播图 1"
+  },
+  {
+    "url": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1789093630895.jpeg",
+    "target": "banner/banner-02.jpeg",
+    "note": "首屏轮播图 2"
+  },
+  {
+    "url": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1789720893747.jpeg",
+    "target": "banner/banner-03.jpeg",
+    "note": "首屏轮播图 3"
+  },
+  {
+    "url": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1767858541029.jpg",
+    "target": "banner/banner-04.jpg",
+    "note": "首屏轮播图 4"
+  },
+  {
+    "url": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1789093547877.jpeg",
+    "target": "banner/banner-05.jpeg",
+    "note": "首屏轮播图 5"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/icon-search.png",
+    "target": "ui/icon-search.png",
+    "note": "运单查询输入框搜索图标"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/express.png",
+    "target": "service/lines-express.png",
+    "note": "场景服务：快递快运（选中大图）"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/supplyChain.png",
+    "target": "service/lines-supplyChain.png",
+    "note": "场景服务：仓配一体"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/bulky.png",
+    "target": "service/lines-bulky.png",
+    "note": "场景服务：大件"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/warehouse.png",
+    "target": "service/lines-warehouse.png",
+    "note": "场景服务：送仓"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/coldChain.png",
+    "target": "service/lines-coldChain.png",
+    "note": "场景服务：冷链"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/medicine.png",
+    "target": "service/lines-medicine.png",
+    "note": "场景服务：医药"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/service%2B.png",
+    "target": "service/lines-servicePlus.png",
+    "note": "场景服务：京东服务"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/capacity.png",
+    "target": "service/lines-capacity.png",
+    "note": "场景服务：运力"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/inter.png",
+    "target": "service/lines-inter.png",
+    "note": "场景服务：国际物流"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/lines/technology.png",
+    "target": "service/lines-technology.png",
+    "note": "场景服务：物流科技"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v4/home/service/express.png",
+    "target": "service/express-truck.png",
+    "note": "快递快运服务卡车大图"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/solution/icon-consumer.png",
+    "target": "industry/icon-consumer.png",
+    "note": "行业方案 icon：快消"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/solution/icon-dress.png",
+    "target": "industry/icon-dress.png",
+    "note": "行业方案 icon：服饰"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/solution/icon-homeAppliances.png",
+    "target": "industry/icon-homeAppliances.png",
+    "note": "行业方案 icon：家电"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/solution/icon-digital.png",
+    "target": "industry/icon-digital.png",
+    "note": "行业方案 icon：3C"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/solution/icon-car.png",
+    "target": "industry/icon-car.png",
+    "note": "行业方案 icon：汽车"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/solution/icon-fresh.png",
+    "target": "industry/icon-fresh.png",
+    "note": "行业方案 icon：生鲜"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/network/icon-earth.png",
+    "target": "network/icon-earth.png",
+    "note": "网络特性 icon：全网覆盖"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/network/icon-menu.png",
+    "target": "network/icon-menu.png",
+    "note": "网络特性 icon：数实融合"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/network/icon-chain.png",
+    "target": "network/icon-chain.png",
+    "note": "网络特性 icon：全链共生"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/network/icon-time.png",
+    "target": "network/icon-time.png",
+    "note": "网络特性 icon：7X24 小时服务"
+  },
+  {
+    "url": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1778584332412.jpg",
+    "target": "news/cover-01.jpg",
+    "note": "新闻封面 1（Q1 业绩）"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/code/tel.png",
+    "target": "contact/tel.png",
+    "note": "联系电话图标"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/code/jdl-express-code.jpeg",
+    "target": "contact/qrcode-jdl-express.jpeg",
+    "note": "二维码：京东快递"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/code/jdl-code.jpeg",
+    "target": "contact/qrcode-jdl.jpeg",
+    "note": "二维码：京东物流"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/code/jdl-express-mini.jpeg",
+    "target": "contact/qrcode-jdl-express-mini.jpeg",
+    "note": "二维码：京东快递小程序"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/home/footer-weixing-260427.png",
+    "target": "contact/footer-weixin.png",
+    "note": "页脚企业微信"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/images/feedback/qiwei-float-260728.png",
+    "target": "contact/qiwei-float.png",
+    "note": "悬浮企业微信二维码"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/nav/nav-bg-1.png",
+    "target": "nav/nav-bg-1.png",
+    "note": "导航下拉背景纹理"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/product/second-top-bg.png",
+    "target": "search/second-top-bg.png",
+    "note": "快捷查询面板背景"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/send.png",
+    "target": "search/icon-send.png",
+    "note": "快捷入口图标：我要寄件"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/aging-page.png",
+    "target": "search/icon-aging.png",
+    "note": "快捷入口图标：运费&时效查询"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/serve-range.png",
+    "target": "search/icon-range.png",
+    "note": "快捷入口图标：服务范围"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/netwwork.png",
+    "target": "search/icon-network.png",
+    "note": "快捷入口图标：网点查询"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/service/service-active.png",
+    "target": "service/service-active.png",
+    "note": "场景服务选中态胶囊背景"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/service/icon-group.png",
+    "target": "service/icon-group.png",
+    "note": "场景服务选中角标"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/solution/consumer.jpeg",
+    "target": "industry/consumer.jpeg",
+    "note": "行业解决方案背景大图（快消）"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/network/network-bg2.png",
+    "target": "network/network-bg2.png",
+    "note": "物流网络背景 2（点阵地球）"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/home/network/network-bg.jpg",
+    "target": "network/network-bg.jpg",
+    "note": "物流网络背景 1"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/sidebar/enterprise-WeChat-action.webp",
+    "target": "float/icon-qiwei.webp",
+    "note": "悬浮按钮：企业微信"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/sidebar/icon-chat.png",
+    "target": "float/icon-chat.png",
+    "note": "悬浮按钮：客服"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/v3/sidebar/icon-contact.png",
+    "target": "float/icon-contact.png",
+    "note": "悬浮按钮：联系我们"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/home/ba-wangan.png",
+    "target": "footer/footer-0.png",
+    "note": "页脚图片：0"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/home/ba-kexin.png",
+    "target": "footer/footer-1.png",
+    "note": "页脚图片：1"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/home/ba-police.png",
+    "target": "footer/footer-2.png",
+    "note": "页脚图片：2"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/home/ba-anwang.png",
+    "target": "footer/footer-3.png",
+    "note": "页脚图片：3"
+  },
+  {
+    "url": "https://jdl-oss.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/static/images/home/ba-guoan.png",
+    "target": "footer/footer-4.png",
+    "note": "页脚图片：4"
+  },
+  {
+    "url": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1777116909686.jpg",
+    "target": "news/cover-extra-7.jpg",
+    "note": "新闻封面候选：image-1777116909686.jpg"
+  },
+  {
+    "url": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1777084969983.jpg",
+    "target": "news/cover-extra-8.jpg",
+    "note": "新闻封面候选：image-1777084969983.jpg"
+  },
+  {
+    "url": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1777116993194.png",
+    "target": "news/cover-extra-9.png",
+    "note": "新闻封面候选：image-1777116993194.png"
+  },
+  {
+    "url": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1778584335831.jpg",
+    "target": "news/cover-extra-10.jpg",
+    "note": "新闻封面候选：image-1778584335831.jpg"
+  },
+  {
+    "url": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1777116913995.jpg",
+    "target": "news/cover-extra-11.jpg",
+    "note": "新闻封面候选：image-1777116913995.jpg"
+  },
+  {
+    "url": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1777084975819.jpg",
+    "target": "news/cover-extra-12.jpg",
+    "note": "新闻封面候选：image-1777084975819.jpg"
+  },
+  {
+    "url": "https://jdl-cms-pro.s3-cache-accelerate.cn-north-1.jdcloud-oss.com/image-1777117001065.png",
+    "target": "news/cover-extra-13.png",
+    "note": "新闻封面候选：image-1777117001065.png"
+  }
+]

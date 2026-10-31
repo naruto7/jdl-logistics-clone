@@ -12,8 +12,9 @@ const root = fileURLToPath(new URL('./', import.meta.url));
  */
 const PAGES = ['', 'services', 'solutions', 'support', 'esg', 'about', 'project'] as const;
 
-export default defineConfig({
-  base: '/jdl-logistics-clone/',
+export default defineConfig(({ command }) => ({
+  // 生产构建部署在 GitHub Pages 子路径；开发环境用根路径，便于本地直接访问与截图
+  base: command === 'build' ? '/jdl-logistics-clone/' : '/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
@@ -33,5 +34,9 @@ export default defineConfig({
   server: {
     host: '127.0.0.1',
     port: 5173,
+    // Windows 上编辑器原子写会产生 .tmpdir 临时文件，chokidar 监听它会 EBUSY 崩溃
+    watch: {
+      ignored: ['**/*.tmp', '**/*.tmpdir/**', '**/.tmpdir/**', '**/.*.tmpdir/**', '**/qa/**'],
+    },
   },
-});
+}));

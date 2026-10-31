@@ -1,0 +1,156 @@
+/*
+ * 行业区专属样式（数值直接取自官网 CSS：1440 视口下 1rem = 72px，故 .02rem = 1.44px 等）
+ *
+ * 说明：Tailwind 的 utility 位于 @layer utilities，本文件为无 layer 的普通 CSS，
+ * 伪元素 / 状态显隐等需要精确覆盖的规则放在这里，避免被 utility 反向覆盖。
+ */
+
+/* 官网 .animate-slide-up：0.5s cubic-bezier(.4,0,.2,1)，位移 .15rem = 10.8px */
+@keyframes industry-slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(10.8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 背景大图切换淡入（官网只有 background-image .5s 过渡，这里用叠层实现真正淡入） */
+@keyframes industry-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.industry-slide-up {
+  animation: industry-slide-up 0.5s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+/* 背景层：等价于官网 background-position:50%; background-repeat:no-repeat; background-size:cover */
+.industry-bg-layer {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.industry-bg-fade-in {
+  animation: industry-fade-in 0.5s ease both;
+}
+
+/* feature 列表行内红点：.04rem 圆点 + .1rem 右距 + .02rem 垂直微调 */
+.industry-feature::before {
+  content: '';
+  display: inline-block;
+  width: 2.88px;
+  height: 2.88px;
+  margin-right: 7.2px;
+  border-radius: 50%;
+  background: #fc3737;
+  vertical-align: 1.44px;
+}
+
+/* 底部 tab 条中的单个 tab：162.24x69.84 玻璃态白底、2.88px 圆角、0.72px 横向间距 */
+.industry-tab-item {
+  position: relative;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  height: 69.84px;
+  margin: 0 0.72px;
+  border-radius: 2.88px;
+  background: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.industry-tab-name {
+  color: #23252b;
+  font-size: 17.28px;
+  font-weight: 600;
+  line-height: 23.76px;
+}
+
+.industry-tab-item.is-active .industry-tab-name {
+  display: none;
+}
+
+/* 选中态红色卡：162x100.8，上下各溢出 tab 15.48px；未选中时 display:none */
+.industry-tab-card {
+  display: none;
+  width: 100%;
+  height: 100.8px;
+  border-radius: 13.68px;
+  background-image: linear-gradient(149.03deg, #fe7968, #fc3737);
+}
+
+.industry-tab-card.is-active {
+  display: block;
+}
+
+/* 卡片图标 72x72，负上边距 -25.2px 让图标上溢到红卡外侧 */
+.industry-tab-card .industry-tab-icon {
+  display: block;
+  width: 72px;
+  height: 72px;
+  margin: -25.2px auto 18px;
+}
+
+.industry-tab-card .industry-tab-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 14.4px;
+  color: #fff;
+  font-size: 10.08px;
+  line-height: 1;
+}
+
+/* 「了解更多」右侧的小箭头：.06rem 方框 + 上/右边框旋转 45deg */
+.industry-tab-card .industry-tab-more::after {
+  content: '';
+  display: inline-block;
+  width: 4.32px;
+  height: 4.32px;
+  border-top: 0.72px solid #fff;
+  border-right: 0.72px solid #fff;
+  transform: rotate(45deg);
+}
+
+/*
+ * 窄屏兜底（本复刻只要求 PC 像素级还原；移动端不溢出、不重叠即可）。
+ * 官网移动端是另一套版式，这里只做最小压缩，避免 6 个 tab 撑破视口。
+ */
+@media (max-width: 767px) {
+  .industry-tab-item {
+    height: 48px;
+  }
+
+  .industry-tab-name {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .industry-tab-card {
+    height: 48px;
+    border-radius: 8px;
+  }
+
+  .industry-tab-card .industry-tab-icon {
+    display: none;
+  }
+
+  .industry-tab-card .industry-tab-more {
+    height: 100%;
+    font-size: 12px;
+  }
+
+  .industry-desc {
+    width: 100%;
+  }
+}

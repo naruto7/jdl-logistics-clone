@@ -1,41 +1,76 @@
 @import 'tailwindcss';
 
 /*
- * 设计令牌（Design Tokens）
- * 说明：数值来自对 jdl.com 的实测提取（见 recon/REPORT.md），
- * 统一在此维护，组件层只消费 token，不写死色值，便于后续校准。
+ * 品牌字体：自官网 CDN 抓取，仅用于本次学习复刻（见 README 素材出处清单）。
+ * FZLTDHK：区块标题；JDZhengHT/JDZHT：数字与英文；JDLangZhengTi：品牌标题字。
+ */
+@font-face {
+  font-family: 'FZLTDHK';
+  src:
+    url('../assets/fonts/FZLTDHK-400-0.woff2') format('woff2'),
+    url('../assets/fonts/FZLTDHK-400-1.woff') format('woff');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'JDLangZhengTi';
+  src: url('../assets/fonts/JDLangZhengTi-400-0.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'JDZhengHT';
+  src: url('../assets/fonts/JDZHT-400-0.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'JDZHT';
+  src: url('../assets/fonts/JDZHT-400-0.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../assets/fonts/Roboto-400-0.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+/*
+ * 设计令牌：数值来自对 jdl.com 在 1440x900 视口下的实测
+ * （spec/home-spec.json + spec/key-rects.json），组件只消费 token，不硬编码。
  */
 @theme {
-  --color-brand: #e1251b;
-  --color-brand-dark: #c81623;
-  --color-brand-light: #ff6b52;
-  --color-ink: #1f2329;
-  --color-ink-2: #4e5969;
-  --color-ink-3: #86909c;
-  --color-line: #e5e6eb;
-  --color-surface: #f7f8fa;
-  --color-surface-2: #f2f3f5;
+  --color-brand: #fc3737;
+  --color-brand-light: #fe7968;
+  --color-ink: #1a1a1a;
+  --color-ink-2: #525765;
+  --color-ink-3: #868d9f;
+  --color-dark: #23252b;
+  --color-surface: #f2f3f7;
+  --color-line: #ebedf0;
 
-  --font-sans:
-    'PingFang SC', 'Microsoft YaHei', '微软雅黑', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-body:
+    'PingFangSC-Regular', -apple-system-font, sans-serif, 'Microsoft YaHei', '微软雅黑', 'PingFang SC';
+  --font-display: 'FZLTDHK', 'PingFangSC-Regular', 'Microsoft YaHei', sans-serif;
+  --font-num: 'JDZhengHT', 'JDZHT', 'Roboto', sans-serif;
+  --font-brand: 'JDLangZhengTi', 'PingFangSC-Regular', 'Microsoft YaHei', sans-serif;
 
-  --shadow-card: 0 10px 34px rgba(31, 35, 41, 0.08);
-  --shadow-card-hover: 0 18px 44px rgba(225, 37, 27, 0.16);
-  --shadow-float: 0 12px 40px rgba(225, 37, 27, 0.3);
-
-  --radius-card: 12px;
-  --radius-pill: 999px;
+  --shadow-card: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --shadow-panel: 0 18px 36px rgba(0, 0, 0, 0.1);
 }
 
 @layer base {
   html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
   }
 
   body {
     margin: 0;
-    font-family: var(--font-sans);
+    font-family: var(--font-body);
     color: var(--color-ink);
     background: #fff;
   }
@@ -47,11 +82,65 @@
 
   button {
     font-family: inherit;
+    cursor: pointer;
+  }
+
+  img,
+  video {
+    display: block;
   }
 }
 
+/*
+ * 版心：官网 1440 视口下内容宽 982px、左边界 229px。
+ * PC 端固定 982px 保证像素级还原；窄屏退化为自适应留白。
+ */
 @utility container-page {
-  width: 1200px;
-  max-width: calc(100% - 48px);
+  width: 982px;
+  max-width: calc(100% - 64px);
   margin-inline: auto;
+
+  @media (max-width: 1100px) {
+    max-width: calc(100% - 40px);
+  }
+}
+
+/* 页头版心更宽：logo 左边界 103px、右侧辅助导航到 1336px */
+@utility container-header {
+  width: 1233px;
+  max-width: calc(100% - 40px);
+  margin-inline: auto;
+}
+
+/* 品牌渐变（实测：linear-gradient(149.03deg, #FE7968, #FC3737)） */
+@utility bg-brand-gradient {
+  background-image: linear-gradient(149.03deg, #fe7968, #fc3737);
+}
+
+/* 雪碧图图标 hover 播放（首帧静止，hover 时逐帧动画） */
+@keyframes sprite-play {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: var(--sprite-distance);
+  }
+}
+
+.sprite-icon {
+  transition: transform 0.2s ease;
+}
+
+.group:hover .sprite-icon {
+  animation: sprite-play var(--sprite-duration, 1.05s) steps(21) infinite;
+}
+
+/*
+ * 移动端兜底：PC 1440 为验收基准，移动端只要求"不崩"。
+ * 少量绝对定位区块在窄屏可能溢出，这里兜底裁掉横向溢出（clip 不产生滚动容器，不影响 sticky）。
+ */
+@media (max-width: 1023px) {
+  html {
+    overflow-x: clip;
+  }
 }
